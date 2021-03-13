@@ -1,0 +1,72 @@
+/**
+ * 7.3.20 - Services
+ */
+
+/* Stats */
+.stats-section .section-content-wrapper .entry-container {
+    text-align: center;
+
+    .more-button {
+        display: block;
+    }
+}
+
+.stats-section.modern-style .entry-content,
+.stats-section.modern-style .entry-summary {
+    word-break: break-all;
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    margin-top: 7px;
+    opacity: 0.1;
+}
+
+.stats-section.modern-style .entry-title {
+    font-weight: 400;
+}
+
+.stats-section.classic-style.style1 .entry-title {
+    line-height: 1.5;
+}
+
+.stats-section.classic-style.style3 .entry-title {
+    line-height: 1.31;
+}
+
+.stats-section.modern-style .entry-title,
+.stats-section.classic-style.style1 .entry-content,
+.stats-section.classic-style.style1 .entry-summary,
+.stats-section.classic-style.style2 .entry-content,
+.stats-section.classic-style.style2 .entry-summary {
+    font-size: 16px;
+    font-size: 1rem;
+
+}
+
+.stats-section.classic-style.style1 .entry-content,
+.stats-section.classic-style.style1 .entry-summary {
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.stats-section.classic-style.style2 .entry-content,
+.stats-section.classic-style.style2 .entry-summary {
+    opacity: 0.6;
+    text-transform: lowercase;
+    line-height: 1.56;
+    margin-top: 7px;
+}
+
+.stats-section.classic-style.style3 .entry-content,
+.stats-section.classic-style.style3 .entry-summary {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+}
+
+.stats-section.classic-style.style3 .entry-number + .entry-content,
+.stats-section.classic-style.style3 .entry-number + .entry-summary {
+    margin-top: 2px;
+}

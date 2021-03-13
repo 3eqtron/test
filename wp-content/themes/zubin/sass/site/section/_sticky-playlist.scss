@@ -1,0 +1,245 @@
+/**
+ * 7.3.16 - Sticky Playlist Section
+ */
+
+#sticky-playlist-section {
+    border: 0;
+    overflow: initial;
+    padding: 0;
+    width: 100%;
+	bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 200;
+}
+
+#sticky-playlist-section.solid-bg-active {
+    background-color: #1b1b1b;
+}
+
+#sticky-playlist-section.solid-bg-active .zubin-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background-color: rgba(255,255,255,0.3);
+}
+
+#sticky-playlist-section .hentry {
+	margin: 0;
+	padding: 0;
+    float: none;
+    position: static;
+}
+
+#sticky-playlist-section .wp-playlist,
+#sticky-playlist-section .entry-content {
+    margin: 0;
+}
+
+#sticky-playlist-section .wp-playlist-item {
+    padding: 0.857em 1.25em;
+}
+
+#sticky-playlist-section .wp-playlist-item-length {
+    right: 1.75em;
+}
+
+#sticky-playlist-section .wp-playlist-tracks {
+    right: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 9999;
+}
+
+.zubin-mejs-sticky-playlist-container.mejs-container .mejs-time,
+.zubin-mejs-sticky-playlist-container.mejs-container .mejs-time-rail,
+.zubin-mejs-sticky-playlist-container.mejs-container .mejs-button.mejs-volume-button,
+.zubin-mejs-sticky-playlist-container.mejs-container a.mejs-horizontal-volume-slider,
+#sticky-playlist-section .mejs-button.mejs-previous-button.mejs-previous,
+#sticky-playlist-section .mejs-button.mejs-next-button.mejs-next {
+    display: none;
+}
+
+#sticky-playlist-section .zubin-mejs-container.mejs-container .mejs-button.mejs-toggle-playlist button:before,
+#sticky-playlist-section .zubin-mejs-container.mejs-container .mejs-controls .mejs-button.mejs-playpause-button button:before  {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+#sticky-playlist-section .wp-playlist-caption,
+#sticky-playlist-section .wp-playlist-item-title,
+#sticky-playlist-section .wp-playlist-item-length  {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+#sticky-playlist-section .wp-playlist-item-title {
+    font-weight: 700;
+    line-height: 1.692307692307692;
+}
+
+#sticky-playlist-section .wp-playlist {
+    height: 74px;
+}
+
+#sticky-playlist-section .wp-playlist,
+#sticky-playlist-section .wp-playlist-current-item {
+    @include flex;
+    @include flex-no-wrap;
+    @include flex-align-center;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .zubin-mejs-container.mejs-container .mejs-controls {
+    @include flex-justify-end;
+}
+
+#sticky-playlist-section .mejs-container.zubin-mejs-container .mejs-toggle-playlist {
+	position: absolute;
+	right: 0;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+#sticky-playlist-section .zubin-mejs-container.mejs-container .mejs-time {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+#sticky-playlist-section .zubin-mejs-sticky-playlist-container {
+	margin: 0;
+}
+
+.wp-video-playlist .zubin-mejs-container.mejs-container .mejs-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#sticky-playlist-section .playlist-hide {
+    border-radius: 0;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    z-index: 999;
+}
+
+#sticky-playlist-section .playlist-hide .fa {
+    display: block;
+    -webkit-transition-delay: .6s;
+    -moz-transition-delay: .6s;
+    -o-transition-delay: .6s;
+    -ms-transition-delay: .6s;
+    transition-delay: .6s;
+}
+
+.playlist-shorten .zubin-mejs-container.mejs-container .mejs-controls {
+    padding: 17px 21px;
+}
+
+
+body .playlist-shorten .wp-playlist .wp-playlist-current-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    margin-right: 0;
+    margin-top: 9px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+#sticky-playlist-section.playlist-shorten .playlist-hide .fa {
+     -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+#sticky-playlist-section.playlist-shorten .wp-playlist-current-item .wp-playlist-caption,
+#sticky-playlist-section.playlist-shorten .mejs-time.mejs-currenttime-container,
+#sticky-playlist-section.playlist-shorten .mejs-time-rail,
+#sticky-playlist-section.playlist-shorten .mejs-time.mejs-duration-container,
+#sticky-playlist-section.playlist-shorten .mejs-button.mejs-volume-button.mejs-mute,
+#sticky-playlist-section.playlist-shorten .mejs-horizontal-volume-slider,
+#sticky-playlist-section.playlist-shorten .zubin-mejs-container.mejs-container .mejs-controls .mejs-button.mejs-previous,
+#sticky-playlist-section.playlist-shorten .zubin-mejs-container.mejs-container .mejs-controls .mejs-button.mejs-next {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#sticky-playlist-section.playlist-shorten {
+    overflow: hidden;
+    width: 112px;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .wp-playlist {
+    padding: 7px 0;
+}
+
+#sticky-playlist-section.playlist-shorten .section-content-wrapper {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .wp-playlist-current-item,
+#sticky-playlist-section:not(.playlist-shorten) .zubin-mejs-sticky-playlist-container {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .zubin-mejs-container.mejs-container .mejs-controls {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .mejs-container.zubin-mejs-container .mejs-inner {
+    margin-right: 55px;
+}
+
+#sticky-playlist-section.playlist-shorten .mejs-container.zubin-mejs-container .mejs-toggle-playlist {
+    display: none;
+}
+
+#sticky-playlist-section.playlist-shorten .zubin-mejs-sticky-playlist-container {
+    min-width: auto;
+}
+
+#sticky-playlist-section:not(.playlist-shorten) .zubin-mejs-container.mejs-container .mejs-controls {
+    padding: 10px 0;
+}
+
+#sticky-playlist-section .section-content-wrapper {
+    padding: 0;
+}
+
+#sticky-playlist-section.playlist-shorten .wrapper {
+    padding: 0;
+}
+
+body #sticky-playlist-section .wp-playlist-item-length {
+    color: #fff;
+}
+
+
+#sticky-playlist-section .zubin-mejs-container.mejs-container button,
+#sticky-playlist-section .wp-playlist-current-item,
+#sticky-playlist-section .mejs-time,
+#sticky-playlist-section .zubin-mejs-container.mejs-container button,
+#sticky-playlist-section .zubin-mejs-container.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button {
+    color: #fff;
+}
+
+#sticky-playlist-section .wp-playlist-playing .wp-playlist-caption li {
+   color: #6fb9c8;
+}
+
+#sticky-playlist-section .wp-playlist-item .wp-playlist-caption {
+    color: #fff;
+}

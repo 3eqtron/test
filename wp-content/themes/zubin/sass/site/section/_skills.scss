@@ -1,0 +1,60 @@
+/**
+ * 7.3.23 - Skills
+ */
+
+
+.skill-section .section-content-wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-section .layout-two.section-content-wrapper {
+    max-width: 1730px;
+}
+
+.skillbar-bar {
+    height: 10px;
+    width: 0px;
+}
+
+.skillbar-item {
+    display: block;
+}
+
+.skillbar-content {
+    clear: both;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 10px;
+}
+
+.about-me-title {
+    font-weight: 600;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.skill-bar-percent {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.skill-section .entry-title {
+    float: left;
+    margin-bottom: 14px;
+}
+
+.skill-bar-percent {
+    float: right;
+}
+
+.skill-section .view-all-button {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.skill-section .view-all-button .more-link {
+    text-align: center;
+}

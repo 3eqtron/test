@@ -1,0 +1,71 @@
+/**
+ * 7.3.1 - App Section
+ */
+
+.app-image-container {
+	@include flex-flow-column-wrap;
+	@include flex-justify-center;
+	@include flex;
+}
+
+.app-section .hentry {
+    position: initial;
+}
+
+#app-section .entry-container {
+    margin: 0 auto;
+    max-width: 680px;
+}
+
+#app-section.content-position-right .entry-container {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#app-section.content-position-left .entry-container {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.promotion-section.text-align-right .app-image-container {
+	@include flex-justify-end;
+}
+
+.promotion-section.text-align-left .app-image-container {
+	@include flex-justify-start;
+}
+
+.app-image-container div + div {
+	margin-top: 14px;
+}
+
+.app-section .post-thumbnail,
+.album-section .post-thumbnail {
+	margin: 21px 0 0 0;
+}
+
+.app-section .view-more,
+.app-section .social-navigation {
+	margin: 35px 0 0 0;
+	padding: 0;
+}
+
+.app-section .social-navigation li,
+.album-section .social-navigation li {
+	line-height: unset;
+}
+
+.app-section .social-navigation a,
+.album-section .social-navigation a {
+	border: 1px solid;
+	height: 40px;
+	padding: 5px;
+	width: 40px;
+}
+
+.app-section .social-navigation a:hover,
+.app-section .social-navigation a:focus,
+.album-section .social-navigation a:hover,
+.album-section .social-navigation a:focus {
+	border-color: transparent;
+}

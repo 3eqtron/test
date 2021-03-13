@@ -1,0 +1,52 @@
+/**
+ * 7.3.15 - Services
+ */
+
+#service-section {
+    position: relative;
+    width: 100%;
+}
+
+.service-section.classic-style .section-content-wrapper .hentry-inner {
+    padding: 0 25px;
+}
+
+.service-section.modern-style .section-content-wrapper .hentry-inner:hover {
+	-webkit-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-section.modern-style .wrapper .section-content-wrapper .hentry-inner{
+    padding: 30px;
+}
+
+.service-section.text-align-left .entry-header .entry-meta .cat-links,
+.service-section.text-align-center .entry-header .entry-meta .cat-links,
+.service-section.text-align-right .entry-header .entry-meta .cat-links {
+	@include flex-justify-center;
+}
+
+
+.service-section.text-align-center .entry-header .entry-meta .cat-links {
+ 	padding-left: 0;
+}
+
+.service-section.text-align-center .entry-header .entry-meta .cat-links:before {
+	position: static;
+	margin-right: 14px;
+}
+
+.service-section.text-align-right .entry-header .entry-meta .cat-links:before {
+	left: unset;
+	right: 0;
+}
+
+.service-section.text-align-right .entry-header .entry-meta .cat-links {
+    padding-left: 0;
+    padding-right: 38px;
+}
+
+.theme-scheme-ecommerce .service-section.classic-style .entry-content,
+.theme-scheme-ecommerce .service-section.classic-style .entry-summary {
+	margin-top: 7px;
+}

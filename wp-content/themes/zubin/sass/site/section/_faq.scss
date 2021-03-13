@@ -1,0 +1,43 @@
+/**
+ * 7.3.26 - Faq
+ */
+
+.faq-section .entry-header {
+    border-radius: 6px;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+
+.faq-section .entry-title {
+    font-weight: 700;
+    padding-right: 28px;
+    position: relative;
+}
+
+.faq-section .entry-title:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-section .entry-content,
+.faq-section .entry-summary {
+    display: none;
+    margin: 0;
+    padding: 28px 28px 0 28px;
+}
+
+.faq-section .view-more {
+    margin-top: 21px;
+    padding: 0;
+}
+
+.faq-section .more-button {
+    margin-top: 14px;
+}
+
+.faq-section.section .section-content-wrapper {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}

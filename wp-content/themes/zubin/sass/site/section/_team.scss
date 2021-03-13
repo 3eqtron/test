@@ -1,0 +1,167 @@
+/**
+ * 7.3.17 - Team Content Section
+ */
+
+.team-section.style1 .hentry-inner {
+    position: relative;
+}
+
+.team-section.style1 .hentry,
+.team-section.style1 .post-thumbnail,
+.team-section.style1 .entry-meta,
+.team-section.style3 .post-thumbnail {
+    margin: 0;
+}
+
+#team-dots {
+    display: none;
+    margin: 0;
+}
+
+.team-section.style1 .owl-carousel {
+
+    .owl-nav {
+        margin-left: 40px;
+        margin-top: -25px;
+        position: relative;
+        z-index: 2;
+
+        button.owl-next,
+        button.owl-prev {
+            border-radius: 0;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+
+.team-section .owl-carousel.hide-nav .owl-nav {
+    display: none;
+}
+
+.team-section.style1 .entry-container {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, transparent), to(#000));
+    background-image: -webkit-linear-gradient(top, transparent 15%, #000 100%);
+    background-image: -o-linear-gradient(top, transparent 15%, #000 100%);
+    background-image: linear-gradient(-180deg,
+    transparent 15%, #000 100%);
+    z-index: 1;
+    padding: 30% 28px 40px 40px;
+    width: 100%;
+}
+
+.team-section .entry-meta {
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.team-section .artist-social-profile {
+    margin-top: 7px;
+}
+
+.team-section.style1 .team-slider {
+    position: relative;
+}
+
+.team-section.style1 .view-more {
+    margin-top: 21px;
+}
+
+.team-section.style1 .wrapper {
+    padding-bottom: 35px;
+}
+
+.team-section .position,
+.testimonial-content-section.style3 .position {
+    margin-top: 7px;
+}
+
+.position {
+    opacity: 0.6;
+    text-transform: capitalize;
+}
+
+.team-section.style2 .position,
+.testimonial-content-section.style3 .position {
+    opacity: 1;
+}
+
+.team-section .social-navigation {
+    margin-left: -7px;
+}
+
+.team-section .social-navigation a,
+.ew-social-profile .social-navigation a,
+.ew-social-profile .site-footer .social-links-menu a {
+    padding: 7px;
+    opacity: 0.6;
+}
+
+.team-section .social-navigation a:hover,
+.team-section .social-navigation a:focus {
+    opacity: 1;
+}
+
+.team-section.style2 .entry-content,
+.team-section.style2 .entry-summary {
+    border-top: 1px solid;
+    padding-top: 21px;
+}
+
+.team-section.style3 .entry-container {
+    padding: 28px;
+}
+
+.team-section.style4 .post-thumbnail {
+    line-height: 1;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-section.style4 .post-thumbnail a {
+    border-radius: 50%;
+    display: inline-block;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.team-section.style4 .post-thumbnail img {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.team-section.style3 .hentry-inner .post-thumbnail {
+    overflow: hidden;
+}
+
+.team-section.style1 .owl-carousel .owl-prev {
+    position: relative;
+}
+
+.team-section.style1 .owl-carousel .owl-prev:after {
+    content: "";
+    border-right: 1px solid #000;
+    opacity: 0.05;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}

@@ -1,0 +1,98 @@
+
+/* Theme Background Color */
+$theme-background-color: (
+
+    body-background-color: #ffffff,
+
+    primary-background-color: #ffffff,
+
+    secondary-background-color: #fafafa,
+
+    tertiary-background-color: #232323,
+);
+
+/* Theme Color */
+$theme-color: (
+
+    main-text-color: #333333,
+
+    header-text-color: #000000,
+
+    header-text-hover-color: #666666,
+
+    absolute-header-text-color: #ffffff,
+
+    absolute-header-text-hover-color: #cccccc,
+
+    header-navigation-color: #000000,
+
+    header-navigation-hover-color: #666666,
+
+    absolute-header-navigation-color: #ffffff,
+
+    absolute-header-navigation-hover-color: #cccccc,
+
+    heading-text-color: #000000,
+
+    link-color: #6fb9c8,
+
+    link-hover-color: #000000,
+
+    secondary-link-color: #000000,
+
+    secondary-link-hover-color: #6fb9c8,
+
+    border-color: #efefef,
+);
+
+/* Theme Button Color */
+$theme-button-color: (
+
+    button-background-color: #6fb9c8,
+
+    button-text-color: #ffffff,
+
+    button-background-hover-color: #333333,
+
+    button-text-hover-color: #ffffff,
+
+);
+
+/* Theme Section Color */
+$theme-section-color: (
+
+    custom-header-slider-color: #ffffff,
+
+    custom-header-slider-hover-color: #6fb9c8,
+
+    slider-next-prev-color: #b7c1ea,
+
+    slider-next-prev-hover-color: #000000,
+
+    highlight-background-color: #153271,
+
+    highlight-text-color: #ffffff,
+
+    highlight-link-color: #ffffff,
+
+    highlight-link-hover-color: #6fb9c8,
+
+    footer-text-color: #999999,
+
+    footer-title-color: #ffffff,
+
+    footer-link-color: #ffffff,
+
+    footer-border-color: #363636,
+
+    content-color-white: #ffffff,
+);
+
+/* Theme Section Color */
+$theme-gradient-color: (
+
+    button-gradient-color-first: #860ec4,
+
+    button-gradient-color-second: #f701fb,
+
+);

@@ -1,0 +1,32 @@
+/**
+ * 6.3 - Breadcrumb
+ */
+
+
+.catch-breadcrumb.breadcrumb-area {
+	margin: 0;
+	padding: 21px 0;
+}
+
+.breadcrumb-area .sep {
+    padding: 5px 8px;
+}
+
+.breadcrumb-area .sep {
+	opacity: 0.6;
+}
+
+.breadcrumb-area .entry-breadcrumbs a,
+.breadcrumb-area .woocommerce-breadcrumb a {
+	opacity: 0.6;
+	display: inline-block;
+
+	&:hover,
+	&:focus {
+		opacity: 1;
+	}
+}
+
+.woocommerce .breadcrumb-area + .entry-header {
+	margin-bottom: 21px;
+}

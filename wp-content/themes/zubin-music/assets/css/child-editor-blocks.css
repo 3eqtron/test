@@ -1,0 +1,175 @@
+/*
+Theme Name: Zubin
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+.block-editor .editor-styles-wrapper {
+	background-color: #000;
+}
+
+.block-editor .editor-styles-wrapper,
+.block-editor .editor-styles-wrapper input,
+.block-editor .editor-styles-wrapper select,
+.block-editor .editor-styles-wrapper optgroup,
+.block-editor .editor-styles-wrapper textarea {
+	color: #999;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+}
+
+.block-editor .editor-styles-wrapper pre {
+    background-color: #111111;
+    font-family: Inconsolata, monospace;
+    line-height: 1.5;
+    overflow: auto;
+    padding: 1.75em;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.wp-block-table td,
+.wp-block-table th {
+	border-color: #2b2b2b;
+}
+
+.block-editor pre.wp-block-verse {
+	color: #999;
+}
+
+.block-editor .editor-styles-wrapper h1,
+.block-editor .editor-styles-wrapper h2,
+.block-editor .editor-styles-wrapper h3,
+.block-editor .editor-styles-wrapper h4,
+.block-editor .editor-styles-wrapper h5,
+.block-editor .editor-styles-wrapper h6,
+.block-editor .editor-styles-wrapper input[type="button"],
+.block-editor .editor-styles-wrapper input[type="reset"],
+.block-editor .editor-styles-wrapper input[type="submit"],
+.block-editor .editor-styles-wrapper input[type="search"],
+.block-editor .editor-styles-wrapper .button,
+.block-editor .editor-styles-wrapper form label,
+.block-editor .editor-styles-wrapper figcaption {
+	color: #fff;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.edit-post-visual-editor ul:not(.wp-block-gallery),
+.editor-block-list__block ul:not(.wp-block-gallery),
+.block-library-list ul, .edit-post-visual-editor ol,
+.editor-block-list__block ol, .block-library-list ol,
+.block-library-list .editor-rich-text__tinymce {
+	padding-left: 1.3em;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list,
+.edit-post-visual-editor .wp-block-latest-posts.is-grid {
+	list-style: disc;
+}
+
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large {
+    padding: 2.45em 0 0 1em;
+}
+
+.block-editor .editor-styles-wrapper figure {
+	margin-bottom: 1.75em;
+}
+
+.block-editor .wp-block-latest-posts,
+.block-editor .wp-block-latest-posts.is-grid {
+	padding-left: 1.3em;
+}
+
+.block-editor .wp-block-categories ul {
+	padding-left: 0;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border-color: #e702f3;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+	border-left: 3px solid #e702f3;
+}
+
+.wp-block-pullquote {
+	border-top: 3px solid #e702f3;
+	border-bottom: 3px solid #e702f3;
+}
+
+.wp-block-button .wp-block-button__link {
+	background-color: #e702f3;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.56;
+	text-decoration: none;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	font-size: 13px;
+	font-size: .8125rem;
+	border-radius: 36px;
+	background-image: linear-gradient(to right,#860ec4,#f701fb);
+	background-size: 100% auto;
+	transition: .5s;
+	font-family: "Source Sans Pro", sans-serif;
+	padding: 13px 27px;
+}
+
+.is-style-outline .wp-block-button__link,
+.wp-block-button__link.is-style-outline,
+.is-style-outline .wp-block-button__link,
+.wp-block-button__link.is-style-outline,
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+    color: #e702f3;
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid;
+    transition: 0.3s;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: #e702f3;
+	background-image: none;
+	color: #fff;
+	border-color: transparent;
+}
+
+.edit-post-visual-editor a,
+.editor-block-list__block a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+	color: #e702f3;
+}
+
+.edit-post-visual-editor a:hover,
+.edit-post-visual-editor a:focus,
+.editor-block-list__block a:hover,
+.editor-block-list__block a:focus,
+.wp-block-freeform.block-library-rich-text__tinymce a:hover,
+.wp-block-freeform.block-library-rich-text__tinymce a:focus,
+.block-editor .wp-block a:hover,
+.block-editor .wp-block a:focus,
+.block-editor .editor-styles-wrapper a:hover,
+.block-editor .editor-styles-wrapper a:focus {
+	color: #fff;
+}
+
+@media screen and (min-width: 64em) {
+	.wp-block-button .wp-block-button__link {
+		font-size: 15px;
+		font-size: .9375rem;
+	}
+}
+
+@media screen and (min-width: 100em) {
+	.wp-block-button .wp-block-button__link {
+		padding: 17px 35px;
+	}
+}
+

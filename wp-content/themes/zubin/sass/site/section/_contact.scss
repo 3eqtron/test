@@ -1,0 +1,78 @@
+form label {
+    text-transform: capitalize;
+}
+
+.contact-section .contact-info .hentry-inner {
+    text-align: center;
+}
+
+.contact-section .contact-info .entry-content > span,
+.contact-section .contact-info .entry-summary > span {
+    display: block;
+}
+
+.contact-section .contact-info .entry-content,
+.contact-section .contact-info .entry-summary {
+   margin-top: 14px;
+}
+
+.contact-section .contact-info .entry-title {
+    font-weight: 700;
+}
+
+.contact-section input[type="date"],
+.contact-section input[type="time"],
+.contact-section input[type="datetime-local"],
+.contact-section input[type="week"],
+.contact-section input[type="month"],
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section input[type="url"],
+.contact-section input[type="password"],
+.contact-section input[type="search"],
+.contact-section input[type="tel"],
+.contact-section input[type="number"],
+.contact-section textarea {
+    border: 1px solid red;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contact-section .contact-form.layout-two .hentry-inner {
+	position: relative;
+}
+
+.contact-section .contact-form.layout-one.full-width .entry-content {
+	margin-top: 0;
+	position: relative;
+}
+
+.contact-section .contact-form textarea {
+	height: 200px;
+}
+
+.contact-section .contact-form figure {
+	margin: 0;
+}
+
+.contact-section .contact-form .post-thumbnail {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    float: left;
+    margin: 35px 0 0 0;
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+.contact-section .contact-form.layout-one:not(.full-width) {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.contact-section .contact-form.layout-two .hentry {
+	float: none;
+	width: 100%;
+}
+

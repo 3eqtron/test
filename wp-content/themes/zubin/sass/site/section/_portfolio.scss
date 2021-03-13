@@ -1,0 +1,170 @@
+/**
+ * 7.3.13 - Portfolio & Stats
+ */
+
+ .portfolio-section .section-content-wrapper {
+    position: relative;
+}
+
+.portfolio-section .hentry-inner,
+.portfolio-grid .archive-posts-wrapper .hentry-inner  {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-section .entry-container,
+.portfolio-grid .archive-posts-wrapper .entry-container {
+    background: rgba(0,0,0,0.0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.portfolio-section .hentry-inner:hover  .entry-container,
+.portfolio-section .hentry-inner:focus  .entry-container,
+.portfolio-grid .archive-posts-wrapper .hentry-inner:hover .entry-container,
+.portfolio-grid .archive-posts-wrapper .hentry-inner:focus .entry-container {
+    background: rgba(0,0,0,0.5);
+}
+
+.portfolio-section {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.portfolio-section .entry-container > .entry-container-inner-wrap,
+.portfolio-grid .archive-posts-wrapper .entry-container > .entry-container-inner-wrap {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, transparent), to(#000));
+    background-image: -webkit-linear-gradient(bottom, transparent 15%, #000 100%);
+    background-image: -o-linear-gradient(bottom, transparent 15%, #000 100%);
+    background-image: linear-gradient(0deg, transparent 15%, #000 100%);
+    display: block;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-section .section-content-wrapper .post-thumbnail,
+.portfolio-grid .archive-posts-wrapper .post-thumbnail {
+    margin: 0;
+    max-width: 100%;
+}
+
+.mejs-time-handle-content:hover,
+.mejs-time-handle-content:focus,
+.zubin-mejs-container.mejs-container .mejs-button button:hover,
+.zubin-mejs-container.mejs-container .mejs-button button:focus,
+.zubin-mejs-container.mejs-container .mejs-toggle-playlist button:hover::before,
+.zubin-mejs-container.mejs-container .mejs-toggle-playlist button:focus::before,
+.zubin-mejs-container.mejs-container .mejs-controls .mejs-button button:hover::before,
+.zubin-mejs-container.mejs-container .mejs-controls .mejs-button button:focus::before,
+.portfolio-section .hentry-inner:hover .post-thumbnail img,
+.portfolio-section .hentry-inner:focus .post-thumbnail img,
+.team-section.style1 .hentry-inner:hover .post-thumbnail img,
+.team-section.style1 .hentry-inner:focus .post-thumbnail img,
+.events-section .hentry-inner:hover .post-thumbnail img,
+.events-section .hentry-inner:focus .post-thumbnail img,
+.why-choose-us-section.modern-style .owl-item.center:hover .post-thumbnail img,
+.top-destinations .hentry-inner:hover .post-thumbnail,
+.top-destinations .hentry-inner:focus .post-thumbnail,
+.collection-wrapper .hentry-inner:hover .post-thumbnail,
+.collection-wrapper .hentry-inner:focus .post-thumbnail,
+.team-section.style3 .hentry-inner:hover .post-thumbnail img,
+.team-section.style3 .hentry-inner:focus .post-thumbnail img,
+ul.products li.product > a:hover img,
+ul.products li.product > a:focus img,
+.gallery-section .gallery-item img,
+.portfolio-grid .archive-posts-wrapper .hentry-inner:hover .post-thumbnail img,
+.portfolio-grid .archive-posts-wrapper .hentry-inner:focus .post-thumbnail img {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.portfolio-section .entry-title + .entry-meta,
+.portfolio-grid .archive-posts-wrapper .entry-title + .entry-meta {
+    margin-top: 7px;
+}
+
+.portfolio-section .entry-meta a {
+    text-decoration: none;
+}
+
+.portfolio-section .entry-summary {
+    display: none;
+}
+
+.portfolio-section.section-fluid .wrapper {
+    max-width: 100%;
+}
+
+.filter-button-group.button-group {
+    margin-bottom: 21px;
+    margin-left: -10px;
+}
+
+.section .filter-button-group .button {
+    background-color: transparent;
+    background-image: none;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+    opacity: 0.6;
+    padding: 14px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section .filter-button-group .button:hover,
+.section .filter-button-group .button:focus,
+.section .filter-button-group .button.is-checked {
+    opacity: 1;
+}
+
+.section .filter-button-group .button.is-checked:before {
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 10px;
+    position: absolute;
+    width: calc( 100% - 20px);
+}
+
+body:not(.has-featured-slider):not(.has-header-media) .site-header + .section.portfolio-section .section-title {
+    font-size: 35px;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.custom-header + #portfolio-content-section.no-section-heading,
+.featured-slider-section + #portfolio-content-section.no-section-heading {
+    padding-top: 30px;
+}
+
+.portfolio-section.nav-center .filter-button-group {
+    text-align: center;
+}
+
+.portfolio-section.nav-right .filter-button-group {
+    text-align: right;
+}
+
+.theme-scheme-personal .portfolio-section .filter-button-group .button {
+    text-transform: capitalize;
+}
+
+.theme-scheme-personal .section .filter-button-group .button.is-checked:before {
+    content: none;
+}
+

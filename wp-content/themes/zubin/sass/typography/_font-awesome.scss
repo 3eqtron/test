@@ -1,0 +1,465 @@
+/**
+ * 2.1 - FontAwesome
+ */
+
+.post-edit-link:before,
+#promotion-section .button.play-button:before,
+.pagination .prev span:before,
+.pagination .next span:after,
+.gallery-item .gallery-icon a:after,
+.tiled-gallery .tiled-gallery-item a:after,
+.comment-meta .comment-permalink:before,
+.site-header-cart .cart-contents:before,
+.mejs-button button:before,
+.zubin-mejs-container.mejs-container .mejs-button button:before,
+.nav-next .nav-subtitle:after,
+.nav-previous .nav-subtitle:before,
+.wp-custom-header-video-button:before,
+.search-toggle:before,
+.menu-toggle:before,
+.menu-toggle-close:before,
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .page_item_has_children > a:after,
+.top-navigation .menu-item-has-children > a:after,
+.top-navigation .page_item_has_children > a:after,
+.secondary-navigation .menu-item-has-children > a:after,
+.secondary-navigation .page_item_has_children > a:after,
+.dropdown-toggle:after,
+.search-submit:before,
+.featured-slider-section .owl-prev:before,
+.featured-slider-section .owl-next:before,
+.logo-slider-section .owl-prev:before,
+.logo-slider-section .owl-next:before,
+.section .owl-prev:before,
+.section .owl-next:before,
+.team-section .owl-prev:before,
+.team-section .owl-next:before,
+.comment-reply-title small a:before,
+#scrollup:before,
+.more-link.more-icon > span:after,
+.custom-video-button-play:before,
+.events-section.single-layout .entry-content:before,
+.events-section.single-layout .entry-summary:before,
+.pricing-section .entry-content > p:before,
+.pricing-section .entry-summary > p:before,
+.pricing-section .entry-content > ul > li:before,
+.pricing-section .entry-summary > ul > li:before,
+.woocommerce a.button:before,
+ul.products li.product > a:before,
+.faq-section .entry-title:after,
+.wp-playlist .wp-playlist-playing .wp-playlist-caption .wp-playlist-item-title:after,
+.gallery-section .gallery-icon a:after,
+.gallery-section .tiled-gallery-item:focus a:after,
+.timeline-section .hentry:before,
+.guests-section .location .more-button:after,
+.site-header-right li:before,
+.playlist-section .wp-playlist-current-item:before,
+.social-navigation a:before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.post-edit-link:before,
+#promotion-section .button.play-button:before,
+.pagination .prev span:before,
+.pagination .next span:after,
+.gallery-item .gallery-icon a:after,
+.tiled-gallery .tiled-gallery-item a:after,
+.comment-meta .comment-permalink:before,
+.site-header-cart .cart-contents:before,
+.mejs-button button:before,
+.zubin-mejs-container.mejs-container .mejs-button button:before,
+.nav-next .nav-subtitle:after,
+.nav-previous .nav-subtitle:before,
+.wp-custom-header-video-button:before,
+.search-toggle:before,
+.menu-toggle:before,
+.menu-toggle-close:before,
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .page_item_has_children > a:after,
+.top-navigation .menu-item-has-children > a:after,
+.top-navigation .page_item_has_children > a:after,
+.secondary-navigation .menu-item-has-children > a:after,
+.secondary-navigation .page_item_has_children > a:after,
+.dropdown-toggle:after,
+.search-submit:before,
+.featured-slider-section .owl-prev:before,
+.featured-slider-section .owl-next:before,
+.logo-slider-section .owl-prev:before,
+.logo-slider-section .owl-next:before,
+.section .owl-prev:before,
+.section .owl-next:before,
+.team-section .owl-prev:before,
+.team-section .owl-next:before,
+.comment-reply-title small a:before,
+#scrollup:before,
+.more-link.more-icon > span:after,
+.custom-video-button-play:before,
+.events-section.single-layout .entry-content:before,
+.events-section.single-layout .entry-summary:before,
+.pricing-section .entry-content > p:before,
+.pricing-section .entry-summary > p:before,
+.pricing-section .entry-content > ul > li:before,
+.pricing-section .entry-summary > ul > li:before,
+.woocommerce a.button:before,
+ul.products li.product > a:before,
+.faq-section .entry-title:after,
+.wp-playlist .wp-playlist-playing .wp-playlist-caption .wp-playlist-item-title:after,
+.gallery-section .gallery-icon a:after,
+.gallery-section .tiled-gallery-item:focus a:after,
+.timeline-section .hentry:before,
+.guests-section .location .more-button:after,
+.site-header-right li:before,
+.playlist-section .wp-playlist-current-item:before,
+.social-navigation a:before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+}
+
+.social-navigation a[href*="codepen.io"]:before,
+.social-navigation a[href*="digg.com"]:before,
+.social-navigation a[href*="dribbble.com"]:before,
+.social-navigation a[href*="dropbox.com"]:before,
+.social-navigation a[href*="facebook.com"]:before,
+.social-navigation a[href*="flickr.com"]:before,
+.social-navigation a[href*="foursquare.com"]:before,
+.social-navigation a[href*="plus.google.com"]:before,
+.social-navigation a[href*="github.com"]:before,
+.social-navigation a[href*="instagram.com"]:before,
+.social-navigation a[href*="linkedin.com"]:before,
+.social-navigation a[href*="path.com"]:before,
+.social-navigation a[href*="pinterest.com"]:before,
+.social-navigation a[href*="getpocket.com"]:before,
+.social-navigation a[href*="reddit.com"]:before,
+.social-navigation a[href*="skype.com"]:before,
+.social-navigation a[href*="stumbleupon.com"]:before,
+.social-navigation a[href*="tumblr.com"]:before,
+.social-navigation a[href*="twitter.com"]:before,
+.social-navigation a[href*="vimeo.com"]:before,
+.social-navigation a[href*="wordpress.com"]:before,
+.social-navigation a[href*="wordpress.org"]:before,
+.social-navigation a[href*="youtube.com"]:before,
+.social-navigation a[href*="spotify.com"]:before,
+.social-navigation a[href*="twitch.tv"]:before,
+.social-navigation a[href$="/feed/"]:before,
+.social-navigation a[href*="amazon.com"]:before,
+.social-navigation a[href*="apple.com"]:before,
+.social-navigation a[href*="bandcamp.com"]:before,
+.social-navigation a[href*="behance.com"]:before,
+.social-navigation a[href*="deviantart.com"]:before,
+.social-navigation a[href*="etsy.com"]:before,
+.social-navigation a[href*="soundcloud.com"]:before,
+.social-navigation a[href*="play.google.com"]:before {
+    font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+}
+
+.social-navigation a:before {
+    content: "\f0c1";
+}
+
+.social-navigation a[href*="codepen.io"]:before {
+    content: "\f1cb";
+}
+
+.social-navigation a[href*="digg.com"]:before {
+    content: "\f1a6";
+}
+
+.social-navigation a[href*="dribbble.com"]:before {
+    content: "\f17d";
+}
+
+.social-navigation a[href*="dropbox.com"]:before {
+    content: "\f16b";
+}
+
+.social-navigation a[href*="facebook.com"]:before,
+.ew-social-profile .social-navigation a[href*="facebook.com"]::before {
+    content: "\f39e";
+}
+
+.social-navigation a[href*="flickr.com"]:before {
+    content: "\f16e";
+}
+
+.social-navigation a[href*="foursquare.com"]:before {
+    content: "\f180";
+}
+
+.social-navigation a[href*="plus.google.com"]:before {
+    content: "\f0d5";
+}
+
+.social-navigation a[href*="github.com"]:before {
+    content: "\f09b";
+}
+
+.social-navigation a[href*="instagram.com"]:before {
+    content: "\f16d";
+}
+
+.social-navigation a[href*="linkedin.com"]:before {
+    content: "\f0e1";
+}
+
+.social-navigation a[href*="path.com"]:before {
+    content: "\f20c";
+}
+
+.social-navigation a[href*="pinterest.com"]:before {
+    content: "\f231";
+}
+
+.social-navigation a[href*="getpocket.com"]:before {
+    content: "\f265";
+}
+
+.social-navigation a[href*="reddit.com"]:before {
+    content: "\f1a1";
+}
+
+.social-navigation a[href*="skype.com"]:before {
+    content: "\f17e";
+}
+
+.social-navigation a[href*="stumbleupon.com"]:before {
+    content: "\f1a4";
+}
+
+.social-navigation a[href*="tumblr.com"]:before {
+    content: "\f174";
+}
+
+.social-navigation a[href*="twitter.com"]:before {
+    content: "\f099";
+}
+
+.social-navigation a[href*="vimeo.com"]:before {
+    content: "\f27d";
+}
+
+.social-navigation a[href*="wordpress.com"]:before,
+.social-navigation a[href*="wordpress.org"]:before {
+    content: "\f19a";
+}
+
+.social-navigation a[href*="youtube.com"]:before,
+.ew-social-profile .social-navigation a[href*="youtube.com"]::before {
+    content: "\f167";
+}
+
+.social-navigation a[href^="mailto:"]:before,
+.site-header-right li.contact-email:before {
+    content: "\f0e0";
+}
+
+.social-navigation a[href^="tel:"]:before,
+.site-header-right li.contact-phone:before {
+    content: "\f879";
+}
+
+.social-navigation a[href*="spotify.com"]:before {
+    content: "\f1bc";
+}
+
+.social-navigation a[href*="twitch.tv"]:before {
+    content: "\f1e8";
+}
+
+.social-navigation a[href$="/feed/"]:before {
+    content: "\f09e";
+}
+
+.social-navigation a[href*="amazon.com"]:before {
+    content: "\f270";
+}
+
+.social-navigation a[href*="apple.com"]:before {
+    content: "\f179";
+}
+
+.social-navigation a[href*="bandcamp.com"]:before {
+    content: "\f2d5";
+}
+
+.social-navigation a[href*="behance.com"]:before {
+    content: "\f1b4";
+}
+
+.social-navigation a[href*="deviantart.com"]:before {
+    content: "\f1bd";
+}
+
+.social-navigation a[href*="etsy.com"]:before {
+    content: "\f2d7";
+}
+
+.social-navigation a[href*="soundcloud.com"]:before {
+    content: "\f1be";
+}
+
+.social-navigation a[href*="play.google.com"]:before {
+    content: "\f3ab";
+}
+
+
+.events-section.single-layout .entry-content:before,
+.events-section.single-layout .entry-summary:before,
+.site-header-right li.contact-hours:before {
+	content: "\f3c5";
+}
+
+.site-header-cart .cart-contents:before {
+	content: "\f290";
+}
+
+.navigation-classic .site-header-cart .cart-contents:before {
+	margin-right: 0;
+}
+
+.menu-toggle:before {
+	content: "\f0c9";
+}
+
+.menu-toggle.selected:before,
+.comment-reply-title small a:before {
+	content: "\f00d";
+}
+
+.search-toggle:before,
+.search-submit:before {
+	content: "\f002";
+}
+
+.dropdown-toggle:after {
+	content: "\f107";
+}
+
+.active.dropdown-toggle:after {
+	transform: rotate(180deg);
+}
+
+.more-link.more-icon > span:after {
+    content: "\f30b";
+}
+
+.pagination .prev span:before,
+.featured-slider-section .owl-prev:before,
+.team-section .owl-prev:before {
+	content: "\f104";
+}
+
+.pagination .next span:after,
+.featured-slider-section .owl-next:before,
+.team-section .owl-next:before {
+	content: "\f105";
+}
+
+.section .owl-prev:before {
+	content: "\f104";
+}
+
+.section .owl-next:before {
+	content: "\f105";
+}
+
+.wp-custom-header-video-play:before {
+	content: "\f04c";
+}
+
+.wp-custom-header-video-pause:before,
+.custom-video-button-play:before {
+	content: "\f04b";
+}
+
+#scrollup:before {
+	content: "\f106";
+}
+
+.nav-next .nav-subtitle:after {
+	content: "\f105";
+	margin-left: 7px;
+}
+
+.nav-previous .nav-subtitle:before {
+	content: "\f104";
+	margin-right: 7px;
+}
+
+.pagination .prev span:before {
+	margin-right: 7px;
+}
+
+.pagination .next span:after {
+	margin-left: 7px;
+}
+
+#scrollup:before,
+.featured-slider-section.section .owl-prev:before,
+.featured-slider-section.section .owl-next:before {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.logo-slider-section .owl-prev:before,
+.logo-slider-section .owl-next:before {
+	font-size: 42px;
+	font-size: 2.625rem;
+}
+
+.section .owl-prev:before,
+.section .owl-next:before {
+	font-size: 32px;
+	font-size: 2rem;
+}
+
+.nav-next .nav-subtitle:after,
+.nav-previous .nav-subtitle:before {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+#promotion-section .button.play-button:before {
+	content: "\f04b";
+	font-size: 17px;
+	font-size: 1.0625rem;
+}
+
+.post-edit-link:before {
+	content: "\f303";
+	padding-right: 7px;
+}
+
+.share-toggle:before {
+	content: "\f1e0";
+}
+
+.pricing-section .entry-content > p:before,
+.pricing-section .entry-summary > p:before,
+.pricing-section .entry-summary > ul > li:before,
+.pricing-section .entry-content > ul > li:before {
+  content: "\f00c";
+  margin-right: 14px;
+}
+
+.faq-section .entry-title:after {
+    content: "\f107";
+}
+
+.faq-section .open .entry-title:after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.guests-section .location .more-button:after {
+	content: "\f105";
+	padding-left: 7px;
+}
+
+
+

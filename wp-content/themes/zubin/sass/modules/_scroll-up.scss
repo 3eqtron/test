@@ -1,0 +1,36 @@
+/**
+ * 6.8 - Scroll Up
+ */
+
+#scrollup {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    bottom: 35px;
+    height: 40px;
+    line-height: 1;
+    outline: none;
+    padding: 8px;
+    position: fixed;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+}
+
+.sticky-playlist-enabled #scrollup {
+    bottom: 77px;
+}
+
+#scrollup:hover,
+#scrollup:focus {
+    border-color: transparent;
+    text-decoration: none;
+    transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}

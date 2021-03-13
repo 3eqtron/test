@@ -1,0 +1,145 @@
+/**
+ * 7.3.25 - Resume
+ */
+
+.resume-section .experience .hentry-inner {
+    border: 1px solid;
+    overflow: hidden;
+    text-align: center;
+}
+
+.resume-section .education,
+.timeline-section .content-wrapper {
+    position: relative;
+}
+
+.resume-section .education:before {
+    left: 0;
+}
+
+.resume-section .education:before,
+.timeline-section .content-wrapper:before {
+    bottom: 35px;
+    content: '';
+    position: absolute;
+    top: 7px;
+    height: calc(100% - 49px);
+    width: 2px;
+}
+
+.resume-section .education .hentry {
+    clear: both;
+    margin-left: 30px;
+    display: table;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.resume-section .education .hentry:before {
+    left: -35px;
+    height: 12px;
+    width: 12px;
+}
+
+.resume-section .education .hentry:hover::before,
+.resume-section .education .hentry:focus::before {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.resume-section .education .hentry:before,
+.timeline-section .hentry:before {
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 7px;
+    z-index: 2;
+}
+
+.resume-section .education .entry-meta {
+    font-weight: 700;
+}
+
+.resume-section .education .entry-meta a {
+    opacity: 1;
+}
+
+.resume-section .education .date-institute {
+    margin-bottom: 21px;
+}
+
+.resume-section .education .no-institute .date-institute {
+    margin-bottom: 0;
+}
+
+.resume-section .education .institute {
+    margin-top: 7px;
+}
+
+.resume-section .experience .subtitle,
+.resume-section .education .institute {
+    line-height: 1.56;
+}
+
+.resume-section .education .entry-summary,
+.resume-section .education .entry-content,
+.resume-section .education .more-button,
+.timeline-section .entry-summary,
+.timeline-section .entry-content,
+.timeline-section .more-button {
+    margin-top: 14px;
+}
+
+.resume-section .experience .entry-summary,
+.resume-section .experience .entry-content {
+    margin-top: 14px;
+}
+
+.resume-section .experience .subtitle {
+    margin-bottom: 7px;
+}
+
+.resume-section.layout-one .section-content-wrapper > div {
+    margin: 0 auto;
+    float: none;
+}
+
+.resume-section .experience .post-thumbnail img {
+    max-width: 80px;
+}
+
+
+.resume-section .experience .hentry .post-thumbnail img,
+.resume-section .experience .hentry .post-thumbnail:after {
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.resume-section .experience .hentry:hover .post-thumbnail img {
+    transform: rotate(360deg);
+}
+
+.resume-section .experience .hentry .post-thumbnail:after {
+    border: 1px solid;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 80px;
+    padding: 39px;
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.resume-section .experience .hentry:hover .post-thumbnail:after {
+    -webkit-transform: translateX(-50%) scale(1.2);
+    -ms-transform: translateX(-50%) scale(1.2);
+    transform: translateX(-50%) scale(1.2);
+}
+

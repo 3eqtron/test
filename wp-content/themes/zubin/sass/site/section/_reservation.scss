@@ -1,0 +1,34 @@
+/**
+ * 7.4.1 - Reservation
+ */
+
+ .reservation-section.section {
+ 	padding: 42px 30px;
+ }
+
+ #reservation-section {
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ }
+
+.reservation-section .wrapper {
+	max-width: 680px;
+	margin: 0 auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 2px 150px 0 rgba(0, 0, 0, 0.05);
+}
+
+.reservation-section .section-heading-wrapper {
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.reservation-section .section-content-wrapper {
+	padding: 0;
+}
+
+.reservation-section .hentry {
+	margin-bottom: 0;
+}

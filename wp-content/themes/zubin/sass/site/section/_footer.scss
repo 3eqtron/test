@@ -1,0 +1,164 @@
+/**
+ * 7.3.7 - Footer
+ */
+
+ .main-footer-title .wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+ }
+
+ .footer-title {
+    clear: both;
+    line-height: 1.33;
+ }
+
+#colophon .widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#colophon .widget {
+    background-color: transparent;
+}
+
+#site-generator {
+    clear: both;
+}
+
+body #colophon .widget-column.above-footer {
+    width: 100%;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.sticky-playlist-enabled .site-footer {
+    margin-bottom: 60px;
+}
+
+.footer-contact {
+    @include flex;
+    @include flex-justify-center;
+    max-width: 667px;
+    margin: 0 auto;
+
+    p {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+#footer-menu-section .wrapper {
+    padding: 0 30px;
+}
+
+.footer-contact {
+    margin-top: 28px;
+}
+
+.site-info {
+    border-top: 1px solid;
+}
+
+.site-footer-menu {
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.site-footer-menu .social-navigation {
+    padding-bottom: 21px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.site-footer-menu .footer-navigation.site-navigation a {
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.site-footer-right .footer-navigation.site-navigation a {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.copyright,
+.powered {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.powered {
+    padding-top: 14px;
+}
+
+.site-info .wrapper {
+    padding: 21px 30px;
+}
+
+.main-footer-title {
+    text-align: center;
+}
+
+.footer-title {
+    text-transform: uppercase;
+}
+
+#colophon a {
+    opacity: 1;
+}
+
+.site-footer-menu .social-navigation a,
+.site-footer-menu .social-links-menu a {
+    padding: 14px;
+}
+
+#footer-right-content .social-navigation a,
+#footer-right-content .social-links-menu a {
+    padding: 7px;
+}
+
+
+.rounded-social .site-footer-menu .social-navigation a,
+.rounded-social .site-footer-menu .social-links-menu a {
+    font-size: 26px;
+    font-size: 1.625rem;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 56px;
+    margin: 7px;
+    padding: 14px;
+    width: 56px;
+}
+
+.rounded-social .site-footer-menu .social-navigation a:hover,
+.rounded-social .site-footer-menu .social-navigation a:focus,
+.rounded-social .site-footer-menu .social-links-menu a:hover,
+.rounded-social .site-footer-menu .social-links-menu a:focus {
+    border-color: transparent;
+    transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+}
+
+#colophon .section-heading-wrapper {
+    padding: 0;
+    text-align: unset;
+}
+
+.site-footer-right > span {
+    padding-right: 14px;
+}
+
+#site-generator .footer-navigation.site-navigation a {
+    font-weight: 400;
+}
+
+

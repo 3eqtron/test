@@ -1,0 +1,58 @@
+/**
+ * 7.3.29 - Countdown
+ */
+
+
+.countdown-section .section-content-wrapper,
+.countdown-section .section-content-wrapper .hentry {
+	overflow: hidden;
+}
+.countdown-section .section-content-wrapper .entry-content,
+.countdown-section .section-content-wrapper .entry-summary {
+	margin-top: 0;
+}
+
+ .countdown-section #clock {
+    text-align: center;
+    width: 100%;
+}
+
+.countdown #clock span {
+	display: block;
+	text-align: center;
+}
+
+.countdown-section #clock > span {
+	float: left;
+    display: inline-block;
+	padding-left: 10px;
+    padding-right: 10px;
+	width: 50%;
+}
+
+.countdown-section #clock > span:nth-child(1n+4) {
+    clear: both;
+    float: none;
+}
+
+.countdown-section #clock .count-wrap {
+	display: block;
+	padding: 14px 35px;
+}
+
+.countdown-section #clock .countdown-number {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.3;
+}
+
+.countdown-section #clock .countdown-label {
+	display: block;
+	padding-top: 14px;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+
+
+

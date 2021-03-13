@@ -1,0 +1,135 @@
+
+a,
+h1,
+h2,
+h3,
+h3,
+h5,
+h6,
+.sticky-post,
+.nav-title,
+.nav-subtitle,
+.menu-toggle,
+.more-link.more-icon > span:after,
+.post-navigation .nav-subtitle:after,
+.post-navigation .nav-subtitle:before,
+.service-section .section-content-wrapper .hentry-inner,
+.mixed > span,
+.hentry-inner .post-thumbnail img,
+.why-choose-us-section.modern-style .owl-nav .owl-prev,
+.why-choose-us-section.modern-style .owl-nav .owl-next,
+.why-choose-us-section.modern-style .owl-dots .owl-dot,
+.why-choose-us-section.modern-style .owl-dots .owl-dot > span,
+.featured-slider-section .nav-controls .owl-prev,
+.featured-slider-section .nav-controls .owl-next,
+.featured-slider-section .nav-controls,
+.featured-slider-section.style3 .owl-nav .owl-prev,
+.featured-slider-section.style3 .owl-nav .owl-next,
+.pricing-section .hentry-inner,
+.woocommerce-Price-amount,
+.woocommerce a.button:before,
+ul.products li.product > a:before,
+.contact-section .hentry-inner,
+.faq-section .entry-title:after,
+.collection-wrapper .hentry-inner .entry-container,
+.collection-wrapper .entry-header .entry-meta .cat-links,
+.collection-wrapper .entry-header .entry-meta .cat-links:before,
+#sticky-playlist-section .wp-playlist-caption,
+.zubin-mejs-container.mejs-container .mejs-controls .mejs-button button:before,
+.zubin-mejs-container.mejs-container .mejs-toggle-playlist button:before,
+.mejs-time-handle-content,
+#sticky-playlist-section,
+#sticky-playlist-section .playlist-hide .fa,
+.gallery-section .gallery-icon a:after,
+.gallery-section .tiled-gallery-item a:after,
+.gallery-section .gallery-item img,
+.gallery-section .gallery-icon a:before,
+.gallery-section .tiled-gallery-item a:before,
+.countdown-section #clock > span,
+.top-destinations .highlight-text,
+.dropdown-toggle,
+.dropdown-toggle:after,
+#content #infinite-handle span button,
+.theme-scheme-music .button.ghost-button > span,
+.theme-scheme-music .more-link.ghost-button > span,
+.navigation-classic .main-navigation ul ul .menu-item-has-children > a:after,
+.navigation-classic .main-navigation ul ul .page_item_has_children > a:after,
+.top-navigation ul ul .menu-item-has-children > a:after,
+.top-navigation ul ul .page_item_has_children > a:after,
+.secondary-navigation ul ul .menu-item-has-children > a:after,
+.secondary-navigation ul ul .page_item_has_children > a:after,
+.guests-section .location .more-button:after,
+.team-section.style3 .hentry-inner .entry-container,
+.resume-section .education .hentry:before,
+.events-section .event-button .button.ghost-button span span,
+.sticky-playlist-enabled:not(.playlist-made-short) .scroll-down,
+.sticky-playlist-enabled .scroll-down {
+    -webkit-transition: all 0.3s ease-in-out; /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-in-out; /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-in-out; /* Opera 10.50–12.00 */
+    transition: all 0.3s ease-in-out; /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.more-link,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+body .wp-playlist-item {
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.portfolio-section .entry-container {
+    -webkit-transition: 0.2s opacity ease-in-out;
+    -moz-transition: 0.2s opacity ease-in-out;
+    -o-transition: 0.2s opacity ease-in-out;
+    transition: 0.2s opacity ease-in-out;
+}
+
+.custom-header .wp-custom-header-video-button {
+    -webkit-transition: 0.2s background-color ease-in-out,
+                        0.2s color ease-in-out;
+    -moz-transition: 0.2s background-color ease-in-out,
+                     0.2s border-color ease-in-out,
+                     0.2s color ease-in-out;
+    -o-transition: 0.2s background-color ease-in-out,
+                   0.2s color ease-in-out;
+    transition: 0.2s background-color ease-in-out,
+                0.2s color ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    transition: 0.2s background-color ease-in-out,
+                0.2s border-color ease-in-out;
+}
+
+body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrapper {
+    -webkit-transition: 0.2s padding ease-in-out;
+    -o-transition: 0.2s padding ease-in-out;
+    -moz-transition: 0.2s padding ease-in-out;
+    transition: 0.2s padding ease-in-out;
+}

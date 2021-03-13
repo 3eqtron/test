@@ -1,0 +1,85 @@
+/**
+ * 7.3.24 - Pricing
+ */
+
+.pricing-section .hentry-inner {
+    border: 1px solid;
+}
+
+.pricing-section .hentry-inner:hover,
+.pricing-section .hentry-inner:focus,
+.contact-section .hentry-inner:hover,
+.contact-section .hentry-inner:focus {
+    -webkit-box-shadow: -1px 1px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 1px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .post-thumbnail a {
+    border-radius: 50%;
+    display: block;
+    height: 125px;
+    width: 125px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pricing-section .package-price {
+    line-height: 1.5;
+}
+
+.pricing-section .entry-header,
+.pricing-section .package-price {
+    text-align: center;
+}
+
+.pricing-section .entry-header {
+    border-bottom: 1px solid;
+}
+
+.pricing-section .entry-title a {
+  display: block;
+    padding: 28px;
+}
+
+.pricing-section .content-wrapper {
+    padding: 28px 63px;
+}
+
+.pricing-section .highlight .entry-title a:hover,
+.pricing-section .highlight .entry-title a:focus {
+    opacity: 0.8;
+}
+
+.pricing-section .duration:before {
+    content: "/";
+    padding-right: 4px;
+}
+
+.pricing-section .entry-content > ul,
+.pricing-section .entry-summary > ul {
+    list-style: none;
+}
+
+.pricing-section .entry-content > p,
+.pricing-section .entry-summary > p,
+.pricing-section .entry-content > ul > li,
+.pricing-section .entry-summary > ul > li {
+  border-bottom: 1px solid;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+}
+
+.pricing-section .entry-content > p:last-child,
+.pricing-section .entry-summary > p:last-child,
+.pricing-section .entry-content > ul > li:last-child,
+.pricing-section .entry-summary > ul > li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pricing-section .more-button {
+    text-align: center;
+}
+

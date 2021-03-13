@@ -1,0 +1,222 @@
+/*
+   Document   : admin.css
+   Author: Saiful
+   Author e-mail: e2getway@gmail.com
+   Version: 1.0.0
+*/
+.swatch-preview {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	border: 1px solid #ccc;
+	cursor:pointer;
+}
+
+.atawc-modal-container {
+	position: relative;
+	display: none;
+}
+
+.atawc-modal {
+	transform: translate(-50%, -50%);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 360px;
+	max-width: 90%;
+	z-index: 159990;
+	background-color: #fcfcfc;
+}
+
+.atawc-modal input.error {
+	border-color: #dc3232;
+}
+
+.atawc-modal-header,
+.atawc-modal-content,
+.atawc-modal-footer {
+	padding: 20px;
+}
+
+.atawc-modal-header {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.atawc-modal-content {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.atawc-modal-footer {
+	text-align: right;
+}
+
+.atawc-modal-footer .message,
+.atawc-modal-footer .spinner {
+	float: left;
+}
+
+.atawc-modal-footer .message.error {
+	color: #dc3232;
+}
+
+.atawc-modal-footer .message.success {
+	color: #46b450;
+}
+
+
+.widefat tfoot td.attribute_swatch_type,
+.widefat th.attribute_swatch_type,
+.widefat thead td.attribute_swatch_type{
+	text-align:right!important;
+}
+td.attribute_swatch_type select{
+	float:right;	
+}
+
+.ata_wcsap_field_meta{
+	
+	
+	width:100%;
+	
+}
+.ata_wcsap_field_meta td{
+	border-bottom:1px solid #DBDBDB;
+}
+
+.ata_wcvs_heading th{
+	background:#72777c;
+	color:#FFF;
+	font-size:14px;
+	color:#FFF!important;
+}
+.ata_wcvs_sub_heading table,
+.ata_wcvs_meta table{
+	border:none;	
+}
+.ata_wcvs_sub_heading td{
+	border-top:none;
+	border-bottom: 1px solid #eee;
+	background:#fafafa;
+}
+.ata_wcvs_meta td{
+	border-bottom: 1px solid #eee;
+}
+.ata_wcvs_meta tr:hover td{
+	background:#eeeeee;	
+}
+.attribute_woo_var_style_img_row img{
+	float:left;
+}
+.metabox-holder-athemeart{
+	
+}
+.ata_add_padding{
+	padding-left:20px;
+	margin-bottom:20px;	
+}
+
+
+.ata-tutorials-wrapper img {
+  width: 100%;
+}
+
+.ata-tutorials-wrapper ul {
+  margin: 0;
+}
+
+.ata-tutorials-wrapper li {
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 50px 30px;
+  margin: 0;
+  border-bottom: 1px solid #DDDDDD;
+  position: relative;
+}
+
+.ata-tutorials-wrapper li:last-child {
+  border: 0;
+}
+
+.ata-tutorials-wrapper .tutorial-image-wrapper,
+.ata-tutorials-wrapper .tutorial-description-wrapper {
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.ata-tutorials-wrapper .tutorial-image-wrapper {
+  width: 60%;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper {
+  width: 40%;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper h3 {
+  margin: 0 0 20px;
+  font-size: 1.5em;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-contents {
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button {
+  border-radius: 3px;
+  line-height: 1;
+  padding: 13px 20px;
+  font-size: 13px;
+  height: 40px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button:active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-live-demo {
+  background-color: #FFFFFF;
+  color: #333333;
+  border: 1px solid #EEEEEE;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-live-demo:hover {
+  background: #EEEEEE;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-docs {
+  background-color: #36373A;
+  color: #FFFFFF;
+  border: 1px solid #36373A;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-docs:hover {
+  background: #5D5E61;
+  border-color: #5D5E61;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-pro {
+  background-color: #39B54A;
+  color: #FFFFFF;
+  border: 1px solid #39B54A;
+}
+
+.ata-tutorials-wrapper .tutorial-description-wrapper .tutorial-buttons .button.button-pro:hover {
+  background: #3FC851;
+  border-color: #3FC851;
+}
+
+.ata-tutorials-wrapper .tutorial-image-wrapper {
+  position: relative;
+}

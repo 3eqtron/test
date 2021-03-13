@@ -1,0 +1,118 @@
+/**
+ * 7.3.30 - Timeline
+ */
+
+.timeline-section .hentry:before {
+	content: "\f004";
+	padding: 15px;
+	top: 0;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.timeline-section .content-wrapper:before,
+.timeline-section .hentry:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.timeline-section .hentry:hover::before,
+.timeline-section .hentry:focus::before {
+    -webkit-transform: translateX(-50%) scale(1.15) rotate(360deg);
+    -ms-transform: translateX(-50%) scale(1.15) rotate(360deg);
+    transform: translateX(-50%) scale(1.15) rotate(360deg);
+}
+
+.timeline-section .hentry:after {
+	border: 1px solid;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	height: 70px;
+	padding: 34px;
+	position: absolute;
+	width: 70px;
+    left: 50%;
+	top: -11px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	z-index: 1;
+}
+
+.timeline-section .hentry:nth-child(2n) .post-thumbnail {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.timeline-section .hentry:nth-child(2n) .entry-container {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    text-align: right;
+}
+
+.timeline-section .post-thumbnail,
+.timeline-section .hentry:nth-child(2n) .entry-container {
+    padding-left: 30px;
+    padding-right: 54px;
+}
+
+.timeline-section .entry-container,
+.timeline-section .hentry:nth-child(2n) .post-thumbnail {
+    padding-left: 54px;
+    padding-right: 30px;
+}
+
+
+.timeline-section .entry-title {
+	line-height: 1.5;
+}
+
+.timeline-footer-text {
+	text-align: center;
+}
+
+.timeline-section .entry-title + .entry-meta {
+	margin-top: 7px;
+}
+
+.timeline-section .entry-meta a {
+	opacity: 1;
+}
+
+.timeline-section .section-content-wrapper {
+    padding: 0;
+}
+
+.timeline-section .hentry-inner {
+    @include flex;
+}
+
+
+.timeline-section .post-thumbnail,
+.timeline-section .entry-container {
+    width: 50%;
+}
+
+ .timeline-section .post-thumbnail {
+    margin-bottom: 0;
+}
+
+.story-image {
+    margin: 0 30px 35px 30px;
+    text-align: center;
+}
+
+.story-image img {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+
+

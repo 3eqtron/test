@@ -1,0 +1,180 @@
+/**
+ * 3.1 - Elements
+ */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 0 1.75em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.75em 1.5em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 1.75em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin: 0 1.5em 1.75em;
+}
+
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+del {
+    opacity: 0.8;
+}
+
+table,
+caption,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption {
+    border-width: 1px 1px 0 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th,
+td {
+    border-width: 0 1px 1px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+}
+
+tbody th {
+    font-weight: 400;
+}
+
+thead th {
+    border-width: 0 1px 1px 0;
+}
+
+caption,
+th,
+td,
+table.shop_table_responsive tr td {
+    padding: 0.7em 1.4em;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displayblock {
+    display: block;
+}
+
+.cover-link {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 110px;
+    font-size: 6.875rem;
+    font-weight: 700;
+    line-height: 0.7;
+    margin: 10px 16px 4px -3px;
+}
+
+.testimonial-content-section.style4 .author-thumb,
+.product-review-section .hentry-inner-header,
+#team-dots,
+.footer-contact,
+.featured-slider-section .owl-prev,
+.featured-slider-section .owl-next {
+    @include flex;
+    @include flex-wrap;
+    @include flex-align-center;
+}
+
+.more-link,
+#service-section .post-thumbnail img,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#team-dots li,
+.owl-carousel .owl-dots button.owl-dot,
+.logo-slider-section .owl-prev:before,
+.logo-slider-section .owl-next:before,
+#promotion-section .button.play-button:before,
+.entry-content button,
+.entry-summary button,
+#scrollup,
+.widget_categories ul a,
+.widget_archive ul a,
+.ew-archive ul a,
+.ew-categories ul a {
+    @include transition(0.3s ease-in-out);
+}
+
+ #sticky-playlist-section .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}

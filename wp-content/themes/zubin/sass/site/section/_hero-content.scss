@@ -1,0 +1,97 @@
+/**
+ * 7.3.9 - Hero Content
+ */
+
+.hero-section {
+    border: none;
+}
+
+.hero-section .wrapper {
+    padding: 0 30px;
+}
+
+.hero-section .hentry {
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.hero-section .post-thumbnail a {
+    display: block;
+}
+
+.hero-content-wrapper .post-thumbnail-background,
+.testimonial-content-section.style3 .post-thumbnail,
+.venue-section .post-thumbnail-background,
+.excerpt-image-left .has-post-thumbnail .post-wrapper .post-thumbnail,
+.excerpt-image-right .has-post-thumbnail .post-wrapper .post-thumbnail {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    left: auto;
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.hero-content-wrapper .entry-container,
+.testimonial-content-section.style3 .entry-container,
+.venue-section .entry-container {
+    clear: both;
+    margin: 0;
+    width: 100%;
+}
+
+.hero-section .section-content-wrapper {
+    padding: 0;
+    position: relative;
+}
+
+.hero-section.style2 .post-thumbnail {
+    position: relative;
+}
+
+.hero-section.style2 .post-thumbnail:before {
+    content: '';
+    display: block;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 130px;
+}
+
+.hero-section.style2.content-position-right .post-thumbnail:before {
+    left: -130px;
+}
+
+.hero-section.style2.content-position-left .post-thumbnail:before {
+    right: -130px;
+}
+
+.hero-section .video-thumbnail {
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.hero-section .custom-video-button-play,
+.events-section .custom-video-button-play {
+    font-size: 24px;
+    font-size: 1.5rem;
+    height: 80px;
+    padding: 23px;
+    width: 80px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero-section .more-link.ghost-button {
+    background-color: transparent;
+}
+

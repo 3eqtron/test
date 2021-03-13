@@ -1,0 +1,28 @@
+/**
+ * 7.4.2 - Reservation
+ */
+
+.guests-section .post-thumbnail {
+    margin-bottom: 35px;
+}
+
+.guests-section .subtitle {
+	border-radius: 5px;
+	bottom: -17px;
+	display: inline;
+	left: 50%;
+	line-height: 1.62;
+	padding: 7px 14px;
+	transform: translateX(-50%);
+	position: absolute;
+}
+
+.guests-section .subtitle,
+.guests-section .location .more-button {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.guests-section .location .more-button:hover::after {
+	padding-left: 14px;
+}

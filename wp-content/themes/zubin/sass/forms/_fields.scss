@@ -1,0 +1,228 @@
+/**
+ * 4.0 - Forms
+ */
+
+input {
+    line-height: normal;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    outline: thin dotted;
+}
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    border: 0;
+    border-radius: 7px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    line-height: 1.75;
+    margin-top: 7px;
+    width: 100%;
+}
+
+.comment-respond input[type="date"],
+.comment-respond input[type="time"],
+.comment-respond input[type="datetime-local"],
+.comment-respond input[type="week"],
+.comment-respond input[type="month"],
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond input[type="url"],
+.comment-respond input[type="password"],
+.comment-respond input[type="search"],
+.comment-respond input[type="tel"],
+.comment-respond input[type="number"],
+.comment-respond textarea,
+input[type="search"].search-field {
+   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05);
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    opacity: 1;
+}
+
+input[type="search"] {
+    border-radius: 0;
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]:-webkit-search-cancel-button,
+input[type="search"]:-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.post-password-form {
+    margin-bottom: 1.75em;
+}
+
+.post-password-form label {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.076923077em;
+    line-height: 1.6153846154;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+    margin-top: 0.4375em;
+}
+
+.post-password-form > :last-child {
+    margin-bottom: 0;
+}
+
+.search-form,
+.woocommerce-product-search {
+    clear: both;
+    position: relative;
+}
+
+input[type="search"].search-field {
+    -webkit-appearance: none;
+    margin: 0;
+    padding: 12px 61px 12px 12px;
+    width: 100%;
+}
+
+.site-header input[type="search"].search-field {
+    border: 1px solid;
+}
+
+.search-submit {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 49px;
+}
+
+.search-submit:hover,
+.search-submit:focus {
+    background-image: none;
+}
+
+select {
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding: 7px 10px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.posts-navigation .nav-links a,
+.pagination .nav-links .prev,
+.pagination .nav-links .next,
+.site-main #infinite-handle span button,
+.hero-content-wrapper .more-link,
+.promotion-sale-wrapper .hentry .more-link,
+.promotion-section .more-link,
+.promotion-sale .more-link,
+.recent-blog-content .more-recent-posts .more-link,
+.custom-header .more-link,
+#feature-slider-section .more-link,
+.view-all-button .more-link,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.pricing-section .hentry .more-link,
+.product-container .wc-forward,
+.pricing-section .more-link,
+.app-section .more-link,
+.venue-section .more-link,
+.theme-scheme-music button.ghost-button > span,
+.theme-scheme-music .button.ghost-button > span,
+.theme-scheme-music .more-link.ghost-button > span {
+    border: none;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+button.ghost-button,
+.button.ghost-button,
+.more-link.ghost-button {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid;
+    padding: 10px 27px;
+}
+
+.theme-scheme-music button.ghost-button:hover,
+.theme-scheme-music button.ghost-button:focus,
+.theme-scheme-music .button.ghost-button:hover,
+.theme-scheme-music .button.ghost-button:focus,
+.theme-scheme-music .hero-section .more-link.ghost-button:hover,
+.theme-scheme-music .hero-section .more-link.ghost-button:focus {
+    border-color: transparent;
+}

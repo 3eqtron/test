@@ -1,0 +1,482 @@
+/**
+ * 7.1.2 - Posts and pages
+ */
+
+.hentry,
+.resume-section .education .date-institute,
+.resume-section .education .entry-container,
+.timeline-section .post-thumbnail,
+.timeline-section .entry-container,
+.sidebar .widget {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.hentry,
+.view-more,
+#footer-newsletter .widget-inner,
+.timeline-footer-text {
+	margin-bottom: 35px;
+}
+
+.post-thumbnail {
+	display: block;
+	margin-bottom: 21px;
+	position: relative;
+	img {
+		display: block;
+		margin: 0 auto;
+
+		&:hover,
+		&:focus {
+			opacity: 0.9;
+		}
+	}
+}
+
+.post-wrapper .post-thumbnail img {
+	&:hover,
+	&:focus {
+		opacity: 1;
+	}
+}
+
+h1,
+body:not(.home) .custom-header-content .entry-title {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.33;
+}
+
+h1 {
+	margin-bottom: 0.3620689655172414em;
+	margin-top: 1.086206896551724em;
+}
+
+h2 {
+	font-size: 28px;
+	font-size: 1.75rem;
+	line-height: 1.43;
+	margin-bottom: 0.4285714285714286em;
+	margin-top: 1.285714285714286em;
+}
+
+h3 {
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.36;
+	margin-bottom: 0.5833333333333333em;
+	margin-top: 1.75em;
+}
+
+h4 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.25;
+	margin-bottom: 0.75em;
+	margin-top: 2.25em;
+}
+
+h5 {
+	font-size: 22px;
+	font-size: 1.125rem;
+	line-height: 1.56;
+	margin-bottom: 0.875em;
+	margin-top: 2.625em;
+}
+
+h6 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.56;
+	margin-bottom: 1.166666666666667em;
+	margin-top: 3.5em;
+}
+
+.entry-content h1:first-child,
+.entry-content h2:first-child,
+.entry-content h3:first-child,
+.entry-content h4:first-child,
+.entry-content h5:first-child,
+.entry-content h6:first-child,
+.entry-summary h1:first-child,
+.entry-summary h2:first-child,
+.entry-summary h3:first-child,
+.entry-summary h4:first-child,
+.entry-summary h5:first-child,
+.entry-summary h6:first-child,
+.comment-content h1:first-child,
+.comment-content h2:first-child,
+.comment-content h3:first-child,
+.comment-content h4:first-child,
+.comment-content h5:first-child,
+.comment-content h6:first-child,
+.textwidget h1:first-child,
+.textwidget h2:first-child,
+.textwidget h3:first-child,
+.textwidget h4:first-child,
+.textwidget h5:first-child,
+.textwidget h6:first-child {
+	margin-top: 0;
+}
+
+.post-navigation .nav-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.more-button {
+	clear: both;
+	display: block;
+}
+
+.more-link,
+.button,
+.posts-navigation .nav-links a,
+.pagination .nav-links .prev,
+.pagination .nav-links .next,
+#content #infinite-handle span button,
+input[type="submit"],
+.author-link {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.56;
+	text-decoration: none;
+	text-transform: uppercase;
+	word-wrap: break-word;
+}
+
+.theme-scheme-ecommerce .more-link,
+.theme-scheme-ecommerce .button,
+.theme-scheme-ecommerce .posts-navigation .nav-links a,
+.theme-scheme-ecommerce .pagination .nav-links .prev,
+.theme-scheme-ecommerce .pagination .nav-links .next,
+.theme-scheme-ecommerce #content #infinite-handle span button,
+.theme-scheme-ecommerce input[type="submit"],
+.theme-scheme-ecommerce .author-link {
+	font-weight: 600;
+}
+
+.more-link.underlined {
+	border-bottom: 2px solid;
+	padding-bottom: 7px;
+}
+
+.more-link.more-icon > span:after {
+	display: inline-block;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1;
+    padding-left: 14px;
+    position: relative;
+    top: 2px;
+}
+
+
+.more-link:hover > span:after,
+.more-link:focus > span:after {
+    padding-left: 21px;
+}
+
+.view-more {
+	clear: both;
+	padding: 0 30px;
+	text-align: center;
+}
+
+#events-section .view-more {
+	position: relative;
+}
+
+.author-info {
+	border: 1px solid;
+	clear: both;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.author-avatar .avatar {
+	height: 65px;
+	width: 65px;
+}
+
+.author-description > :last-child {
+	margin-bottom: 0;
+}
+
+.author-description .author-title {
+	clear: none;
+	line-height: 1.67;
+	text-transform: capitalize;
+}
+
+.author-bio {
+	overflow: hidden;
+}
+
+.author-link {
+	display: block;
+	white-space: nowrap;
+}
+
+.entry-footer:empty {
+	margin: 0;
+}
+
+.sticky-post {
+	display: inline-block;
+	font-weight: 500;
+	line-height: 1.75;
+	padding: 7px 14px;
+	text-align: center;
+	z-index: 1;
+}
+
+.post-thumbnail .fa-calendar {
+	display: none;
+}
+
+.post-thumbnail .sticky-post {
+	bottom: 0;
+	position: absolute;
+}
+
+.boxed-post .post-thumbnail .sticky-post,
+.border-post .post-thumbnail .sticky-post {
+	bottom: -18.375px;
+	left: 28px;
+}
+
+.entry-container .sticky-post {
+	margin-bottom: 14px;
+}
+
+.full-content .has-post-thumbnail .sticky-post {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.entry-meta {
+	line-height: 1.62;
+	text-transform: capitalize;
+}
+
+.entry-meta + .entry-title,
+.entry-title + .entry-meta {
+	margin-top: 14px;
+}
+
+.entry-meta a {
+	text-decoration: none;
+}
+
+.entry-meta .fa {
+	padding-right: 7px;
+}
+
+.entry-header .entry-meta .cat-links {
+	@include flex;
+	@include flex-align-center;
+	@include flex-wrap;
+  	letter-spacing: 0.5px;
+  	margin-right: 0;
+  	padding-left: 38px;
+  	position: relative;
+}
+
+.entry-header .entry-meta .cat-links:before {
+	border-top: 1px solid;
+  	content: '';
+  	display: inline-block;
+  	height: 1px;
+  	left: 0;
+  	position: absolute;
+  	top: 10px;
+  	width: 29px;
+}
+
+.sidebar .entry-header .entry-meta .cat-links:before {
+	display: none;
+}
+
+.sidebar .entry-header .entry-meta .cat-links {
+	padding-left: 0;
+}
+
+.entry-header .entry-meta .cat-links > a {
+	padding-left: 4px;
+	padding-right: 4px;
+
+	&:first-child {
+		padding-right: 0;
+	}
+}
+
+.entry-header .entry-meta .cat-links {
+	text-transform: uppercase;
+}
+
+.entry-header .entry-title + .entry-meta > span {
+	clear: none;
+	display: inline-block;
+	padding-right: 14px;
+
+	&:last-child {
+		padding-right: 0;
+	}
+}
+
+.entry-footer .entry-meta > span {
+	clear: both;
+	display: block;
+	margin: 35px 0 0;
+}
+
+.entry-footer .entry-meta {
+
+     > span:not(.edit-link) {
+        text-transform: lowercase;
+        @include flex;
+        @include flex-wrap;
+        @include flex-align-center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+	    > a {
+	    	border: 1px solid;
+	    	display: inline-block;
+	    	margin: 0 7px 7px 0;
+	    	padding: 7px 14px;
+
+	    	&:last-child {
+	            margin-right: 0;
+	        }
+	    }
+    }
+}
+
+.site-content .entry-footer {
+	margin-top: 42px;
+}
+
+.post-wrapper .post-thumbnail .posted-on a {
+	display: inline-block;
+	padding: 8px 18px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 0;
+}
+
+.boxed-post .post-thumbnail .posted-on a,
+.border-post .post-thumbnail .posted-on a {
+	left: 28px;
+}
+
+.archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry .post-wrapper {
+	border-bottom: 1px solid;
+	padding-bottom: 35px;
+}
+
+body.excerpt-image-left .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry .post-wrapper,
+body.excerpt-image-right .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry .post-wrapper {
+	border: 0;
+	padding-bottom: 0;
+}
+
+.excerpt-image-left .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry:after,
+.excerpt-image-right .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry:after {
+	border-bottom: 1px solid;
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	padding-bottom: 35px;
+
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: 0;
+	height: auto;
+	margin: 0;
+	padding-right: 0.5em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.75em;
+}
+
+.entry-caption {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 1.0769230769em;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+.content-bottom-widgets {
+	clear: both;
+}
+
+.entry-footer .author img {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-right: 1em;
+}
+
+.archive-post-wrap .entry-footer .entry-meta {
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.view-all-button {
+    text-align: center;
+}
+
+.border-post .hentry .entry-container {
+	border: 1px solid;
+}
+
+.site-content .archive-posts-wrapper .section-heading-wrapper {
+    padding-top: 0;
+}
+
+.edit-link {
+    display: block;
+    padding: 14px;
+}

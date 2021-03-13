@@ -1,0 +1,119 @@
+/**
+ * 7.3.12 - Playlist Section
+ */
+
+#playlist-section {
+	border: none;
+	position: relative;
+}
+
+.playlist-section {
+    padding: 42px 0;
+}
+
+#playlist-section .section-content-wrapper {
+
+    .mejs-container {
+        min-width: 100% !important;
+        width: 100%;
+    }
+
+    .mejs-next {
+        padding-right: 0;
+    }
+}
+
+.playlist-section .post-thumbnail-background {
+    background-position: right center;
+    background-size: cover;
+    content: "";
+    float: left;
+    margin-bottom: 21px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.playlist-section .entry-container {
+    clear: both;
+    width: 100%;
+}
+
+.playlist-section .wp-playlist {
+    @include flex;
+    @include flex-wrap;
+    @include flex-align-center;
+    @include flex-justify-space-between;
+
+    .mejs-time {
+        padding: 0;
+    }
+
+    .mejs-duration-container {
+        padding-left: 5px;
+        position: relative;
+    }
+
+    .mejs-currenttime-container {
+        padding-right: 5px;
+    }
+
+    .wp-playlist-current-item {
+    	margin: 0;
+
+        img {
+            display: none;
+        }
+    }
+
+    .wp-playlist-tracks {
+        width: 100%;
+    }
+}
+
+.playlist-section .entry-title {
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+.playlist-section .post-thumbnail {
+    margin-bottom: 0;
+}
+
+.playlist-section .entry-content,
+.playlist-section .entry-summary {
+    margin-top: 7px;
+}
+
+.playlist-section.modern-style .has-post-thumbnail .entry-container {
+    position: relative;
+}
+
+.playlist-section.modern-style .section-content-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.playlist-section .entry-container,
+.content-frame .entry-container {
+    padding: 35px;
+}
+
+.playlist-section .wp-playlist-current-item {
+    @include flex;
+    @include flex-align-center;
+}
+
+.playlist-section .wp-playlist-current-item .wp-playlist-caption {
+    margin-left: 21px;
+}
+
+.playlist-section .wp-playlist-current-item:before {
+    content: "\f04b";
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 17px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+
+/**
+ * 8.5 - >= 783px
+ */
+
+@include media(admin-bar) {
+	.admin-bar.absolute-header .featured-slider-section .hentry .hentry-inner,
+	.home.admin-bar.absolute-header .custom-header {
+		min-height: calc(100vh - 32px);
+	}
+
+	.admin-bar .flashy-overlay .flashy-close {
+		top: 32px;
+	}
+}

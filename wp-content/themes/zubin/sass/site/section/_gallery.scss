@@ -1,0 +1,131 @@
+/**
+ * 7.3.8 - Gallery Section
+ */
+
+/*Default*/
+
+ .gallery {
+    margin-bottom: 1.555555555555556em;
+}
+
+.gallery-item {
+    display: inline-block;
+    max-width: 33.33%;
+    padding: 0 1.1400652% 2.2801304%;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33333%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66667%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28571%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11111%;
+}
+
+.gallery-caption {
+    display: block;
+    font-style: italic;
+    padding-top: 0.5384615385em;
+}
+
+/* Section */
+
+.gallery-section.section {
+    padding-bottom: 0;
+}
+
+.gallery-section.section.no-section-heading {
+    padding: 0;
+}
+
+.gallery-section .hentry,
+.gallery-section .gallery {
+    margin-bottom: 0;
+}
+
+.gallery-section .wrapper {
+    max-width: 100%;
+}
+
+.gallery-section .section-content-wrapper {
+    padding: 0;
+}
+
+.gallery-section .tiled-gallery .tiled-gallery-item {
+    width: 25%;
+}
+
+.gallery-section .gallery-item {
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.gallery-section .gallery-icon a {
+    display: block;
+    line-height: 0;
+}
+
+.gallery-section figcaption {
+    bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4;
+    padding: 21px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-section .edit-link {
+    text-align: center;
+}
+
+.gallery-section .entry-footer .entry-meta {
+    padding-top: 0;
+}
+
+.gallery-section .entry-content,
+.gallery-section .entry-summary,
+.gallery-section figure,
+.gallery-section .entry-footer .entry-meta > span {
+    margin: 0;
+}
+
+body #gallery-section.section.no-section-heading {
+    padding: 0;
+}
+
+.site-footer .gallery-item,
+.sidebar .gallery-item {
+    margin: 0;
+}

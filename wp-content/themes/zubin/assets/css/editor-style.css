@@ -1,0 +1,2590 @@
+/*
+Theme Name: Zubin
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Audio Section
+ * 13.0 - Media Queries
+ *    13.1 - >= 1024px
+ *	  13.2 - >= 1200px
+ *	  13.3 - >= 1440px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	margin: 30px;
+	max-width: 680px;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	line-height: 1.75;
+}
+
+blockquote {
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0 0 1.458333333333333em 0;
+    padding-top: 70px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+blockquote:before {
+	font-size: 20px;
+	font-size: 1.25rem;
+	content: "\201C";
+	display: block;
+	float: left;
+	font-family: Georgia;
+	font-size: 84px;
+	font-size: 5.25rem;
+	font-style: normal;
+	font-weight: 700;
+	height: 0;
+	left: 50%;
+	line-height: normal;
+	position: absolute;
+	margin-top: 5px;
+	top: -17px;
+	transform: translateX(-50%);
+}
+
+.wp-caption .wp-caption-text {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+    font-weight: 700;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+p {
+	margin: 0 0 1.4em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+.wp-block-pullquote blockquote {
+	border-width: 4px 0;
+	background-color: transparent;
+}
+
+.wp-block-pullquote blockquote {
+    border-bottom: 4px solid #6fb9c8;
+    border-top: 4px solid #6fb9c8;
+    margin-top: 49px;
+    padding: 49px 0;
+    text-align: center;
+}
+
+.wp-block-pullquote.alignright blockquote,
+.wp-block-pullquote.alignleft blockquote {
+	margin-top: 0;
+}
+
+.wp-block-pullquote.alignwide,
+.wp-block-pullquote.alignfull {
+	margin: 0;
+}
+
+blockquote p {
+	margin-bottom: 1.050em;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 400;
+	line-height: 1.615384615384615;
+	text-decoration: none;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 400;
+}
+
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 1.75em;
+}
+
+code,
+.mce-content-body code,
+kbd,
+.mce-content-body kbd,
+tt,
+.mce-content-body tt,
+var,
+.mce-content-body var,
+samp,
+.mce-content-body samp,
+pre,
+.mce-content-body pre {
+	font-family: Inconsolata, monospace;
+	font-size: 1em;
+}
+
+pre,
+.mce-content-body pre {
+	color: inherit;
+	font-family: Inconsolata, monospace;
+	line-height: 1.555;
+	margin: 0 0 1.75em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.75em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+code,
+.mce-content-body code,
+kbd,
+.mce-content-body kbd {
+	background-color: transparent;
+	color: #999;
+	padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+mark,
+ins {
+	padding: 0.125em 0.25em;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+/**
+ * 3.0 - Elements
+ */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 0 1.75em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.75em 1.5em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 1.75em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin: 0 1.5em 1.75em;
+}
+
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+del {
+    opacity: 0.8;
+}
+
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    border: 1px solid;
+}
+
+table,
+.mce-item-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption,
+.mce-item-table caption {
+    border-width: 1px 1px 0 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th,
+.mce-item-table th
+td,
+.mce-item-table, td {
+    border-width: 0 1px 1px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+th,
+.mce-item-table th {
+    font-weight: 700;
+}
+
+tbody th {
+    font-weight: 400;
+}
+
+thead th {
+    border-width: 0 1px 1px 0;
+}
+
+caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    padding: 0.778em;
+}
+
+.more-link,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button {
+    -webkit-transition: all 0.3s ease-in-out; /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-in-out; /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-in-out; /* Opera 10.50–12.00 */
+    transition: all 0.3s ease-in-out; /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.drop-cap::first-letter {
+    float: left;
+	font-size: 110px;
+	font-size: 6.875rem;
+	font-weight: 700;
+	line-height: 0.7;
+	margin: 10px 16px 4px -3px;
+}
+
+button.ghost-button,
+.button.ghost-button,
+.more-link.ghost-button {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid;
+    padding: 10px 27px;
+}
+
+
+/**
+ * 4.0 - Padding/Margin
+ */
+
+.wp-caption .wp-caption-text {
+	padding: 7px 14px;
+}
+
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: 13px 27px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	padding: 12px 14px;
+}
+
+.comment-form label {
+	margin-bottom: 7px;
+}
+
+
+/**
+ * 5.0 - Forms
+ */
+
+input {
+	line-height: normal;
+}
+
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+	background-color: transparent;
+	border: none;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 0.0666666666666667em;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.entry-content .button,
+.entry-summary .button {
+	box-shadow: none;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: thin dotted;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	background-color: transparent;
+	border: 1px solid;
+	margin-top: 7px;
+	width: 100%;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 0.5em;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+select {
+	border: none;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	padding: 7px 10px;
+}
+
+
+/**
+ * 6.0 - Navigation
+ */
+
+/**
+ * 6.1 - Links
+ */
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+
+/**
+ * 7.0 - Alignments
+ */
+
+.alignleft {
+	float: left;
+	margin: 0.375em 1.75em 1.75em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.375em 0 1.75em 1.75em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+	margin: 0.3157894737em 1.4736842105em 1.473684211em 0;
+}
+
+blockquote.alignright {
+	margin: 0.3157894737em 0 1.473684211em 1.4736842105em;
+}
+
+blockquote.aligncenter {
+	margin-bottom: 1.473684211em;
+}
+
+
+/**
+ * 8.0 - Posts and pages
+ */
+
+h1,
+.mce-content-body h1 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.33;
+	margin-bottom: 0.3620689655172414em;
+	margin-top: 1.086206896551724em;
+}
+
+h2,
+.mce-content-body h2 {
+	font-size: 28px;
+	font-size: 1.75rem;
+	line-height: 1.43;
+	margin-bottom: 0.4285714285714286em;
+	margin-top: 1.285714285714286em;
+}
+
+h3,
+.mce-content-body h3 {
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.36;
+	margin-bottom: 0.5833333333333333em;
+	margin-top: 1.75em;
+}
+
+h4,
+.mce-content-body h4 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.25;
+	margin-bottom: 0.75em;
+	margin-top: 2.25em;
+}
+
+h5,
+.mce-content-body h5 {
+	font-size: 22px;
+	font-size: 1.125rem;
+	line-height: 1.56;
+	margin-bottom: 0.875em;
+	margin-top: 2.625em;
+}
+
+h6,
+.mce-content-body h6 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.56;
+	margin-bottom: 1.166666666666667em;
+	margin-top: 3.5em;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+.updated:not(.published) {
+	display: none;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+}
+
+.page-links a,
+.page-links > span {
+	border: 1px solid;
+	display: inline-block;
+	font-size: 16px;
+	font-size: 1rem;
+	height: 2em;
+	line-height: 2em;
+	margin-right: 0.5em;
+	text-align: center;
+	width: 2em;
+}
+
+.page-links a {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: 0;
+	height: auto;
+	margin: 0;
+	padding-right: 0.5em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.75em;
+}
+
+.entry-caption {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 1.0769230769em;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+
+/**
+ * 9.0 - Media
+ */
+
+ /* Make sure embeds and iframes fit their containers. */
+ embed,
+ iframe,
+ object,
+ video {
+     /*margin-bottom: 1.75em;*/
+     max-width: 100%;
+     vertical-align: middle;
+ }
+
+ p > embed,
+ p > iframe,
+ p > object,
+ p > video {
+     margin-bottom: 0;
+ }
+
+ .wp-audio-shortcode,
+ .wp-video {
+     margin-top: 0;
+     margin-bottom: 1.75em;
+ }
+
+ .wp-playlist-item .wp-playlist-item-length {
+     top: 0.75em;
+ }
+
+
+/**
+ * 10.0 - Captions
+ */
+
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+	font-style: italic;
+	text-align: center;
+}
+
+
+/**
+ * 	11.0 -  Galleries
+ */
+
+.gallery {
+	margin: 0 -1.1666667% 1.75em;
+}
+
+.gallery-item {
+	display: inline-block;
+	max-width: 33.33%;
+	padding: 0 1.1400652% 2.2801304%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	padding: 14px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	background: linear-gradient(0deg,rgba(0,0,0,.7) 0,rgba(0,0,0,.3) 60%,transparent);
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+/**
+ * 12.0 - Audio Player
+ */
+
+.mejs-offscreen {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+}
+
+.mejs-container {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    text-align: left;
+    text-indent: 0;
+    vertical-align: top;
+}
+
+.mejs-container,
+.mejs-container * {
+    box-sizing: border-box;
+}
+
+.mejs-container video::-webkit-media-controls,
+.mejs-container video::-webkit-media-controls-panel,
+.mejs-container video::-webkit-media-controls-panel-container,
+.mejs-container video::-webkit-media-controls-start-playback-button {
+    -webkit-appearance: none;
+    display: none!important;
+}
+
+.mejs-fill-container,
+.mejs-fill-container .mejs-container {
+    height: 100%;
+    width: 100%;
+}
+
+.mejs-fill-container {
+    background: 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.mejs-container:focus {
+    outline: none;
+}
+
+.mejs-iframe-overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.mejs-embed,
+.mejs-embed body {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.mejs-fullscreen {
+    overflow: hidden!important;
+}
+
+.mejs-container-fullscreen {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.mejs-container-fullscreen .mejs-mediaelement,
+.mejs-container-fullscreen video {
+    height: 100%!important;
+    width: 100%!important;
+}
+
+.mejs-background,
+.mejs-mediaelement {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.mejs-mediaelement {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.mejs-poster {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+:root .mejs-poster-img {
+    display: none;
+}
+
+.mejs-poster-img {
+    border: 0;
+    padding: 0;
+}
+
+.mejs-overlay {
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    left:0;
+    position:absolute;
+    top:0;
+}
+
+.mejs-layer {
+    z-index: 1;
+}
+
+.mejs-overlay-play {
+    cursor: pointer;
+}
+
+.mejs-overlay-button {
+    background: url(/wp-includes/js/mediaelement/mejs-controls.svg) no-repeat;
+    background-position: 0 -39px;
+    height: 80px;
+    width: 80px;
+}
+
+.mejs-overlay:hover>.mejs-overlay-button {
+    background-position: -80px -39px;
+}
+
+.mejs-overlay-loading {
+    height: 80px;
+    width: 80px;
+}
+
+.mejs-overlay-loading-bg-img {
+    -webkit-animation: mejsanimation 1s linear infinite;
+    animation: mejsanimation 1s linear infinite;
+    background: transparent url(/wp-includes/js/mediaelement/mejs-controls.svg) -160px -40px no-repeat;
+    display: block;
+    height: 80px;
+    width: 80px;
+    z-index: 1;
+}
+
+@-webkit-keyframes mejsanimation {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes mejsanimation {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+.mejs-controls {
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    padding: 0;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.mejs-controls:not([style*="display: none"]) {
+    background: rgba(255, 0, 0, .7);
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .35));
+    background: linear-gradient(transparent, rgba(0, 0, 0, .35));
+}
+
+.mejs-button,
+.mejs-time,
+.mejs-time-rail {
+    font-size: 10px;
+    height: 40px;
+    line-height: 10px;
+    margin: 0;
+    width: 40px;
+}
+
+.mejs-button>button {
+    background: transparent url(/wp-includes/js/mediaelement/mejs-controls.svg);
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 20px;
+    line-height: 0;
+    margin: 10px 6px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    width: 20px;
+}
+
+.mejs-button>button:focus {
+    outline: 1px dotted #999;
+}
+
+.mejs-container-keyboard-inactive [role=slider],
+.mejs-container-keyboard-inactive [role=slider]:focus,
+.mejs-container-keyboard-inactive a,
+.mejs-container-keyboard-inactive a:focus,
+.mejs-container-keyboard-inactive button,
+.mejs-container-keyboard-inactive button:focus {
+    outline: 0;
+}
+
+.mejs-time {
+    box-sizing: content-box;
+    color: #333;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 24px;
+    overflow: hidden;
+    padding: 16px 10px 0;
+    text-align: center;
+    width: auto;
+}
+
+.mejs-play>button {
+    background-position: 0 0;
+}
+
+.mejs-pause>button {
+    background-position: -20px 0;
+}
+
+.mejs-replay>button {
+    background-position: -160px 0;
+}
+
+.mejs-time-rail {
+    direction: ltr;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.mejs-time-buffering,
+.mejs-time-current,
+.mejs-time-float,
+.mejs-time-float-corner,
+.mejs-time-float-current,
+.mejs-time-hovered,
+.mejs-time-loaded,
+.mejs-time-marker,
+.mejs-time-total {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: block;
+    height: 3px;
+    position: absolute;
+}
+
+.mejs-time-total {
+    background: hsla(0, 0%, 100%, .3);
+    margin: 5px 0 0;
+    width: 100%;
+}
+
+.mejs-time-buffering {
+    -webkit-animation: b 2s linear infinite;
+    animation: b 2s linear infinite;
+    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+    background: linear-gradient(-45deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+    background-size: 15px 15px;
+    width: 100%;
+}
+
+@-webkit-keyframes b {
+    0% {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 0;
+    }
+}
+
+@keyframes b {
+    0% {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 0;
+    }
+}
+
+.mejs-time-loaded {
+    background: hsla(0, 0%, 100%, .3);
+}
+
+.mejs-time-current,
+.mejs-time-handle-content {
+    background : #6fb9c8;
+}
+
+.more-link,
+.button,
+.wp-block-button__link {
+	transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+}
+
+.mejs-time-hovered {
+    background: hsla(0, 0%, 100%, .5);
+    z-index: 10;
+}
+
+.mejs-time-hovered.negative {
+    background: rgba(0, 0, 0, .2);
+}
+
+.mejs-time-buffering,
+.mejs-time-current,
+.mejs-time-hovered,
+.mejs-time-loaded {
+    left: 0;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    width: 100%;
+}
+
+.mejs-time-buffering {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.mejs-time-hovered {
+    -webkit-transition: height .1s cubic-bezier(.44, 0, 1, 1);
+    transition: height .1s cubic-bezier(.44, 0, 1, 1);
+}
+
+.mejs-time-hovered.no-hover {
+    -webkit-transform: scaleX(0)!important;
+    -ms-transform: scaleX(0)!important;
+    transform: scaleX(0)!important;
+}
+
+.mejs-time-handle-content {
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    z-index: 11;
+}
+
+.mejs-time-handle-content {
+	border: none;
+    height: 3px;
+    left: -5px;
+    top: -4px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    width: 10px;
+}
+
+.mejs-time-float {
+    background: #eee;
+    border: 1px solid #333;
+    bottom: 100%;
+    color: #111;
+    display: none;
+    height: 17px;
+    margin-bottom: 9px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 36px;
+}
+
+.mejs-time-float-current {
+    display: block;
+    left: 0;
+    margin: 2px;
+    text-align: center;
+    width: 30px;
+}
+
+.mejs-time-float-corner {
+    border: 5px solid #eee;
+    border-color: #eee transparent transparent;
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    line-height: 0;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+}
+
+.mejs-long-video .mejs-time-float {
+    margin-left: -23px;
+    width: 64px;
+}
+
+.mejs-long-video .mejs-time-float-current {
+    width: 60px;
+}
+
+.mejs-broadcast {
+    color: #fff;
+    height: 10px;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+
+.mejs-fullscreen-button>button {
+    background-position: -80px 0;
+}
+
+.mejs-unfullscreen>button {
+    background-position: -100px 0;
+}
+
+.mejs-mute>button {
+    background-position: -60px 0;
+}
+
+.mejs-unmute>button {
+    background-position: -40px 0;
+}
+
+.mejs-volume-button {
+    position: relative;
+}
+
+.mejs-volume-button>.mejs-volume-slider {
+    -webkit-backface-visibility: hidden;
+    background: rgba(50, 50, 50, .7);
+    border-radius: 0;
+    bottom: 100%;
+    display: none;
+    height: 115px;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 25px;
+    z-index: 1;
+}
+
+.mejs-volume-button:hover {
+    border-radius: 0 0 4px 4px;
+}
+
+.mejs-volume-total {
+    background: hsla(0, 0%, 100%, .5);
+    height: 100px;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 2px;
+}
+
+.mejs-volume-current {
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.mejs-volume-current,
+.mejs-volume-handle {
+    background: hsla(0, 0%, 100%, .9);
+    position: absolute;
+}
+
+.mejs-volume-handle {
+    border-radius: 1px;
+    cursor: ns-resize;
+    height: 6px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 16px;
+}
+
+.mejs-horizontal-volume-slider {
+    display: block;
+    height: 36px;
+    position: relative;
+    vertical-align: middle;
+    width: 56px;
+}
+
+.mejs-horizontal-volume-total {
+    background: rgba(50, 50, 50, .8);
+    height: 8px;
+    top: 16px;
+    width: 50px;
+}
+
+.mejs-horizontal-volume-current,
+.mejs-horizontal-volume-total {
+    border-radius: 2px;
+    font-size: 1px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.mejs-horizontal-volume-current {
+    background: hsla(0, 0%, 100%, .8);
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.mejs-horizontal-volume-handle {
+    display: none;
+}
+
+.mejs-captions-button,
+.mejs-chapters-button {
+    position: relative;
+}
+
+.mejs-captions-button>button {
+    background-position: -140px 0;
+}
+
+.mejs-chapters-button>button {
+    background-position: -180px 0;
+}
+
+.mejs-captions-button>.mejs-captions-selector,
+.mejs-chapters-button>.mejs-chapters-selector {
+    background: rgba(50, 50, 50, .7);
+    border: 1px solid transparent;
+    border-radius: 0;
+    bottom: 100%;
+    margin-right: -43px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 50%;
+    visibility: visible;
+    width: 86px;
+}
+
+.mejs-chapters-button>.mejs-chapters-selector {
+    margin-right: -55px;
+    width: 110px;
+}
+
+.mejs-captions-selector-list,
+.mejs-chapters-selector-list {
+    list-style-type: none!important;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.mejs-captions-selector-list-item,
+.mejs-chapters-selector-list-item {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    list-style-type: none!important;
+    margin: 0 0 6px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.mejs-captions-selector-list-item:hover,
+.mejs-chapters-selector-list-item:hover {
+    background-color: #c8c8c8!important;
+    background-color: hsla(0, 0%, 100%, .4)!important;
+}
+
+.mejs-captions-selector-input,
+.mejs-chapters-selector-input {
+    clear: both;
+    float: left;
+    left: -1000px;
+    margin: 3px 3px 0 5px;
+    position: absolute;
+}
+
+.mejs-captions-selector-label,
+.mejs-chapters-selector-label {
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 4px 0 0;
+}
+
+.mejs-captions-selected,
+.mejs-chapters-selected {
+    color: #21f8f8;
+}
+
+.mejs-captions-translations {
+    font-size: 10px;
+    margin: 0 0 5px;
+}
+
+.mejs-captions-layer {
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.mejs-captions-layer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.mejs-captions-layer[lang=ar] {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mejs-captions-position {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.mejs-captions-position-hover {
+    bottom: 35px;
+}
+
+.mejs-captions-text,
+.mejs-captions-text * {
+    background: hsla(0, 0%, 8%, .5);
+    box-shadow: 5px 0 0 hsla(0, 0%, 8%, .5), -5px 0 0 hsla(0, 0%, 8%, .5);
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+.mejs-container.mejs-hide-cues video::-webkit-media-text-track-container {
+    display: none;
+}
+
+.mejs-overlay-error {
+    position: relative;
+}
+
+.mejs-overlay-error>img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.mejs-cannotplay,
+.mejs-cannotplay a {
+    color: #fff;
+    font-size: .8em;
+}
+
+.mejs-cannotplay {
+    position: relative;
+}
+
+.mejs-cannotplay a,
+.mejs-cannotplay p {
+    display: inline-block;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.wp-playlist-caption,
+.wp-playlist-current-item .wp-playlist-item-artist,
+.wp-playlist-current-item .wp-playlist-item-title,
+.wp-playlist-item-album {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mejs-container {
+    clear: both;
+    max-width: 100%;
+}
+
+.mejs-container * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mejs-container,
+.mejs-container .mejs-controls,
+.mejs-embed,
+.mejs-embed body {
+    background: #222;
+}
+
+.mejs-time {
+    font-weight: 400;
+    word-wrap: normal;
+}
+
+.mejs-controls a.mejs-horizontal-volume-slider {
+    display: table;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #fff;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #0073aa;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-controls .mejs-time-rail .mejs-time-total {
+    background: rgba(255, 255, 255, .33);
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    border-radius: 0;
+}
+
+.mejs-overlay-loading {
+    background: 0 0;
+}
+
+.mejs-controls button:hover {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.me-cannotplay {
+    width: auto!important;
+}
+
+.media-embed-details .wp-audio-shortcode {
+    display: inline-block;
+    max-width: 400px;
+}
+
+.audio-details .embed-media-settings {
+    overflow: visible;
+}
+
+.media-embed-details .embed-media-settings .setting span {
+    max-width: 400px;
+    width: auto;
+}
+
+.media-embed-details .embed-media-settings .checkbox-setting span {
+    display: inline-block;
+}
+
+.media-embed-details .embed-media-settings {
+    padding-top: 0;
+    top: 28px;
+}
+
+.media-embed-details .instructions {
+    padding: 16px 0;
+    max-width: 600px;
+}
+
+.media-embed-details .setting .remove-setting,
+.media-embed-details .setting p {
+    color: #a00;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.media-embed-details .setting .remove-setting {
+    padding: 0;
+}
+
+.media-embed-details .setting a:hover {
+    color: #dc3232;
+}
+
+.media-embed-details .embed-media-settings .checkbox-setting {
+    float: none;
+    margin: 0 0 10px;
+}
+
+.wp-video {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp_attachment_holder .wp-audio-shortcode,
+.wp_attachment_holder .wp-video {
+    margin-top: 18px;
+}
+
+.wp-video-shortcode video,
+video.wp-video-shortcode {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.video-details .wp-video-holder {
+    width: 100%;
+    max-width: 640px;
+}
+
+.wp-playlist {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 12px 0 18px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wp-admin .wp-playlist {
+    margin: 0 0 18px;
+}
+
+.wp-playlist video {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.wp-playlist audio {
+    display: none;
+    max-width: 100%;
+    width: 400px;
+}
+
+.wp-playlist-caption,
+.wp-playlist-item-meta {
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.692307692307692;
+}
+
+.wp-playlist .mejs-container {
+    margin: 0;
+    margin-bottom: 5px;
+    max-width: 100%;
+    min-height: 65px;
+}
+
+.wp-playlist .mejs-controls .mejs-button button {
+    outline: 0;
+}
+
+.wp-playlist-light {
+    background: #fff;
+    color: #000;
+}
+
+.wp-playlist-dark {
+    color: #fff;
+    background: #232323;
+}
+
+.wp-playlist-caption {
+    max-width: 88%;
+}
+
+.wp-playlist-item .wp-playlist-caption {
+    color: #000;
+    font-weight: 700;
+    max-width: -webkit-calc(100% - 60px);
+    max-width: calc(100% - 60px);
+    text-decoration: none;
+}
+
+.wp-playlist-item-title {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wp-playlist-item-album {
+    font-style: italic;
+}
+
+.wp-playlist-item-artist {
+    font-size: 12px;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+}
+
+.wp-playlist-item-length {
+    position: absolute;
+    right: 3px;
+    top: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wp-playlist-tracks {
+    margin-top: 10px;
+}
+
+.wp-playlist-item {
+    position: relative;
+    cursor: pointer;
+    padding: 0 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wp-playlist-item:last-child {
+    border-bottom: 0;
+}
+
+.wp-playlist-dark .wp-playlist-caption {
+    color: #ddd;
+}
+
+.wp-playlist-playing {
+    font-weight: normal;
+    background: #f7f7f7;
+}
+
+.wp-playlist-light .wp-playlist-playing {
+    background: #fff;
+    color: #000;
+}
+
+.wp-playlist-dark .wp-playlist-playing {
+    background: #000;
+    color: #fff;
+}
+
+.wp-playlist-current-item {
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.wp-playlist .wp-playlist-current-item img {
+    float: left;
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+    padding: 0;
+    border: 0;
+}
+
+.wp-audio-playlist .me-cannotplay span {
+    padding: 5px 15px;
+}
+
+.mejs-toggle-playlist button {
+    z-index: 3;;
+}
+
+.mejs-container {
+    background: 0 0;
+    padding-bottom: .875em;
+}
+
+.mejs-container .mejs-controls {
+    background: 0 0;
+    margin: 0;
+    position: relative;
+}
+
+.mejs-container .mejs-controls a:hover {
+    opacity: 1;
+}
+
+.mejs-container .mejs-controls .mejs-button {
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: relative;
+}
+
+.mejs-container .mejs-button button {
+    background: 0 0;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mejs-container .mejs-controls .mejs-button button:before {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    border-radius: 0;
+    height: 3px;
+    top: 10px;
+}
+
+.mejs-container .mejs-controls .mejs-time {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 45px;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail {
+    height: 40px;
+    margin: 0;
+    padding: 18px 0 0;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    border: none;
+    margin: 0;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    height: 0;
+    overflow: hidden;
+    top: -1.9em;
+    visibility: hidden;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-top-color: #ddd;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    background-color: #fff;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+    background-color: #6fb9c8;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider {
+    height: 20px;
+    margin-top: 18px;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background: #fff
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: #6fb9c8;
+}
+
+.mejs-container button {
+    color: #03065d;
+}
+
+.wp-playlist-dark .mejs-container button {
+	color: #fff;
+}
+
+.wp-audio-shortcode {
+    border: none;
+    margin: 1.313em 0 2.625em;
+}
+
+.wp-video-shortcode.mejs-container {
+    padding: 0;
+}
+
+.wp-video-shortcode.mejs-container .mejs-controls {
+    background: #222;
+    top: auto;
+}
+
+.more-link,
+.button,
+.wp-block-button__link {
+    border: none;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 35px;
+    padding: 13px 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body .wp-playlist {
+    border: none;
+    clear: both;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.625;
+    margin: 0.875em 0 2.1875em;
+    padding: 0;
+    position: relative;;
+}
+
+body .wp-playlist .wp-playlist-current-item img {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    margin-right: 14px;
+    width: 50px;
+    height: 50px;
+}
+
+body .wp-playlist-caption,
+body .wp-playlist-item-title {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+body .wp-playlist-caption:hover {
+    opacity: 1;
+}
+
+body .wp-playlist-current-item {
+    border:none;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.9375em 1.75em
+}
+
+body .wp-playlist-current-item .wp-playlist-item-title,
+body .wp-playlist-playing {
+    font-weight: normal;
+}
+
+body .wp-playlist-tracks {
+    border: none;
+    margin: 0;
+}
+
+body .wp-playlist-item {
+	border-bottom: none;
+	padding: 14px 28px;
+}
+
+body .wp-playlist-dark .wp-playlist-item {
+    border-color: #313131;
+    padding: .75em;
+}
+
+body .wp-playlist-item:last-child {
+    border-bottom: 0;
+}
+
+body .wp-playlist-item-length {
+    font-size: 16px;
+    font-size: 1rem;
+    top: auto;
+    right: 1.75em;
+    bottom: 1.23076923em;
+}
+
+body .wp-playlist-dark .wp-playlist-item-length {
+    right: .75em;
+}
+
+body .wp-playlist-item-artist {
+    display: block;
+}
+
+body .wp-playlist-light,
+body .wp-playlist-light .wp-playlist-caption,
+body .wp-playlist-current-item .wp-playlist-item-title,
+body .wp-playlist-playing {
+    background: 0 0;
+}
+
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+body .wp-playlist-playing,
+body .wp-playlist-light .wp-playlist-playing {
+    background: 0 0;
+}
+
+body  .wp-playlist.wp-playlist-dark .wp-playlist-caption {
+    color: #ddd;
+}
+
+body .wp-playlist-item-album {
+	display: none;
+	font-style: normal;
+}
+
+body .wp-playlist-caption.wp-playlist-item-album:before {
+    content: " - ";
+}
+
+body .wp-playlist-caption .wp-playlist-item-artist:before {
+    content: " ( ";
+}
+
+body .wp-playlist-caption .wp-playlist-item-artist:after {
+    content: " ) ";
+}
+
+.mejs-container .mejs-controls {
+	padding: 15px 28px;
+	height: 100%;
+}
+
+.wp-video-playlist .mejs-container .mejs-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.mejs-button button:before,
+.mejs-container .mejs-button button:before {
+	display: inline-block;
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.mejs-container .mejs-toggle-playlist button:before {
+	content:"\f0c9";
+}
+
+.mejs-container .mejs-toggle-playlist.is-open button:before {
+	content:"\f00d";
+}
+
+.mejs-container .mejs-next button:before {
+	content:"\f051";
+}
+
+.mejs-container .mejs-previous button:before {
+	content:"\f048";
+}
+
+.mejs-container .mejs-play button:before,
+.mejs-container .mejs-replay button:before {
+	content:"\f04b";
+}
+
+.mejs-container .mejs-pause button:before {
+	content:"\f04c";
+}
+
+.mejs-container .mejs-volume-button button:before {
+	content:"\f028";
+}
+
+.mejs-container .mejs-volume-button.mejs-unmute button:before {
+	content:"\f026";
+}
+
+.mejs-container .mejs-fullscreen-button button:before {
+	content:"\f0b2";
+}
+
+
+/**
+ * 13.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 13.1 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	blockquote.alignleft,
+	blockquote.alignright {
+	    width: 52%;
+	}
+
+	h1,
+	.mce-content-body h1 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    h3,
+    .mce-content-body h3 {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+
+    h4,
+    .mce-content-body h4 {
+        font-size: 26px;
+        font-size: 1.625rem;
+    }
+
+    h5,
+    .mce-content-body h5 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .more-link,
+    .button,
+    input[type="submit"] {
+        font-size: 15px;
+        font-size: 0.9375rem;
+    }
+}
+
+
+/**
+ * 13.2 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+	body .wp-playlist .wp-playlist-current-item img {
+	    width: 46px;
+	    height: 46px;
+	}
+}
+
+/**
+ * 13.3 - >= 1366px
+ */
+
+ @media screen and (min-width: 85.375em) {
+	h1,
+	.mce-content-body h1 {
+		font-size: 42px;
+		font-size: 2.625rem;
+	}
+
+	h2,
+	.mce-content-body h2 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h3,
+	.mce-content-body h3 {
+		font-size: 34px;
+		font-size: 2.125rem;
+	}
+
+	h4,
+	.mce-content-body h4 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	caption,
+	th,
+	td {
+	    padding: 0.778em 1.556em;
+	}
+ }
+
+
+ /**
+ * 13.4 - >= 1600px
+ */
+
+ @media screen and (min-width: 100em) {
+ 	body,
+	button,
+	input,
+	select,
+	textarea {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+
+	h1,
+	.mce-content-body h1 {
+        font-size: 48px;
+        font-size: 3rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 42px;
+        font-size: 2.625rem;
+    }
+
+    h3,
+    .mce-content-body h3 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    button,
+    .button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+        padding: 17px 35px;
+    }
+
+    button.ghost-button,
+    .button.ghost-button {
+        padding: 14px 35px;
+    }
+
+    blockquote {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+ }
+
+
+/**
+ * 13.5 - >= 1920px
+ */
+
+@media screen and (min-width: 100em) {
+ 	h1,
+ 	.mce-content-body h1 {
+ 		font-size: 58px;
+ 		font-size: 3.625rem;
+ 	}
+
+ 	h2,
+ 	.mce-content-body h2 {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+}
+
+
+/**
+ * 14.0 - RTL
+ */
+
+.rtl blockquote > ul,
+.rtl blockquote > ol {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.rtl table th,
+.rtl .mce-item-table th,
+.rtl .mce-item-table td,
+.rtl table caption {
+	text-align: right;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 1.75em 1.5em 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-bottom: 0;
+}
+
+.rtl .mejs-container {
+	text-align: right;
+}
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+/**
+ * 10.0 - Color
+ */
+
+/* Background Color */
+
+body {
+    background-color: #fff;
+}
+
+
+/* Secondary Background Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+ins,
+mark,
+ins,
+pre {
+    background-color: #f9f9f9; //
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+optgroup,
+textarea,
+input::placeholder,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    color: #333;
+}
+
+/* Headline Text Color */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-cap:first-letter {
+    color: #000;
+}
+
+/* Ghost Button Text Color */
+button.ghost-button,
+.button.ghost-button,
+.more-link.ghost-button {
+    color: #000;
+}
+
+/* Ghost Button Border Color */
+button.ghost-button,
+.button.ghost-button,
+.more-link.ghost-button {
+    border-color: #000;
+}
+
+
+/* Link Color */
+a,
+blockquote:before {
+    color: #6fb9c8;
+}
+
+
+/* Link Hover Color */
+a:hover,
+a:focus {
+    color: #000;
+}
+
+/* Secondary Link Color */
+ins,
+input,
+select,
+optgroup,
+textarea,
+table a,
+.more-link {
+    color: #000;
+}
+
+/* Secondary Link Hover Color */
+table a:hover,
+table a:focus {
+   color: #6fb9c8;
+}
+
+/* Button Background Color */
+.button,
+button,
+input[type="submit"] {
+    background-color: #6fb9c8;
+}
+
+.more-link.underlined {
+    border-color: #6fb9c8;
+}
+
+/* Button Text Color */
+
+button,
+input[type="submit"],
+.button {
+    color: #fff;
+}
+
+/* Button Hover Text Color */
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+.button.ghost-button:hover,
+.button.ghost-button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    color: #fff;
+}
+
+/* Button Hover Background Color */
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #333;
+}
+
+/* Border Color */
+table,
+.mce-item-table,
+tfoot,
+tfoot tr td,
+caption,
+.mce-item-table caption,
+table th,
+.mce-item-table th,
+table td,
+.mce-item-table td,
+table tr,
+.mce-item-table tr,
+select,
+abbr,
+acronym {
+    border-color: #ebebeb;
+}

@@ -1,0 +1,127 @@
+/**
+ * 7.3.14 - Promotional Headline
+ */
+
+.promotion-section .hentry,
+.promotion-contact .hentry,
+.promotion-sale .hentry {
+    position: initial;
+    margin: 0;
+}
+
+.promotion-section.content-frame .entry-container-frame {
+    padding: 2em;
+}
+
+.promotion-section.classic-style .post-thumbnail-background:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.promotion-section.modern-style .post-thumbnail-background {
+    padding-bottom: 100%;
+}
+
+.promotion-section.classic-style .post-thumbnail-background,
+.promotion-contact .post-thumbnail-background,
+.app-section .post-thumbnail-background,
+.promotion-sale .post-thumbnail-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+.promotion-section,
+.promotion-contact,
+.app-section,
+.promotion-sale {
+    text-align: center;
+}
+
+.promotion-section .content-wrapper,
+.promotion-contact .entry-container,
+.promotion-sale .content-wrapper {
+    padding: 0 30px;
+}
+
+.promotion-section.classic-style .entry-container,
+.promotion-sale .entry-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.promotion-sale .entry-container table {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promotion-section .content-wrapper,
+.promotion-contact .entry-container,
+.promotion-sale .content-wrapper {
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+
+.promotion-section .content-wrapper,
+.promotion-contact .entry-container,
+.app-section .entry-container,
+.promotion-sale .content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.content-frame .entry-container {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.promotion-section .video-thumbnail {
+    margin-top: 21px;
+}
+
+.promotion-section.section,
+.promotion-contact.section,
+.promotion-sale.section {
+    padding: 0;
+}
+
+.promotion-section.style2 .entry-container .content-wrap > :last-child {
+    margin-bottom: 0;
+}
+
+.promotion-section .post-thumbnail {
+    margin-top: 21px;
+}
+
+.promotion-section .section-content-wrapper,
+.promotion-contact .section-content-wrapper,
+.promotion-sale .section-content-wrapper {
+    padding: 0;
+}
+
+.promotion-section.classic-style.style2 .post-thumbnail img {
+    margin: 0 auto 0 0;
+}
+
+.promotion-section.modern-style .section-description {
+    word-break: break-all;
+}
+
+.promotion-section .entry-container .more-button {
+    margin-bottom: 0;
+}

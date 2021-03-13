@@ -1,0 +1,685 @@
+/**
+ * 8.8 - >= 1366px
+ */
+
+@include media(wide) {
+	/* Woocommerce styles */
+	.two-columns-layout.single-product ul.products.columns-4 li.product {
+		width: 25%;
+	}
+
+	#team-dots {
+		max-width: 545px;
+		margin: 0 45px;
+	}
+
+	#team-dots {
+		@include flex;
+	}
+
+    .team-section.style1 .section-heading-wrapper {
+        padding-left: 40px;
+    }
+
+    .team-section.style1 .wrapper .section-content-wrapper {
+        padding-right: 40px;
+    }
+
+	.two-columns-layout.single-product ul.products.columns-4 li.product:nth-child(4n+1) {
+		clear: none;
+	}
+
+	.two-columns-layout.single-product ul.products.columns-4 li.product:nth-child(2n+1) {
+		clear: none;
+	}/* Woocommerce styles end here */
+
+    .navigation-classic.menu-align-left .site-header-main .site-branding,
+    .navigation-classic.header-right-enabled .site-header-main .site-branding {
+        padding-right: 56px;
+    }
+
+	.custom-header-content .site-header-text,
+    .featured-slider-section .entry-summary p,
+    .featured-slider-section .entry-content p,
+	.footer-contact p {
+		font-size: 21px;
+		font-size: 1.3125rem;
+	}
+
+	.site-content .wrapper,
+	.section-content-wrapper.layout-four,
+    .section-content-wrapper.layout-three,
+    .section-content-wrapper.layout-two,
+    .section-content-wrapper.layout-one,
+    .logo-slider-section .section-content-wrapper,
+    .testimonial-content-section .section-content-wrapper,
+    .resume-section .section-content-wrapper,
+    .countdown-section .section-content-wrapper,
+    .top-destinations .section-content-wrapper {
+		padding: 0 40px;
+	}
+
+	#primary-search-wrapper > .social-navigation {
+ 		display: block;
+ 	}
+
+	.comment-respond {
+		padding: 42px 56px;
+	}
+
+	h1,
+	body:not(.home) .custom-header-content .entry-title {
+		font-size: 42px;
+		font-size: 2.625rem;
+	}
+
+	h2 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h3 {
+		font-size: 34px;
+		font-size: 2.125rem;
+	}
+
+	h4 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	.single .site-main .entry-header,
+    .page .site-main .entry-header,
+    .archive .page-header,
+    .error404 .page-header,
+    .search .page-header,
+    .woocommerce-products-header {
+        margin-bottom: 56px;
+    }
+
+	.hero-section .wrapper,
+	.view-more,
+	.promotion-section .content-wrapper,
+    .promotion-sale .content-wrapper,
+	.app-section .section-content-wrapper,
+	.events-section.single-layout .section-content-wrapper,
+	.team-section.style1 .section-content-wrapper,
+	.logo-slider-section.style2 .section-content-wrapper,
+	.product-content-section .section-content-wrapper,
+    .promotion-contact .entry-container,
+    .timeline-footer-text,
+    .venue-section .section-content-wrapper,
+    .main-footer-title .wrapper,
+    #footer-menu-section .wrapper,
+    .recent-blog-content .section-content-wrapper.layout-one {
+        padding: 0 60px;
+    }
+
+    .custom-header-content,
+    .featured-slider-section.section .slider-content-wrapper {
+        padding: 133px 120px;
+    }
+
+    .featured-slider-section.style1 .nav-controls {
+	    padding: 60px 60px 147px 60px;
+	}
+
+    .featured-slider-section.style3:hover .owl-nav .owl-prev,
+    .featured-slider-section.style3:focus .owl-nav .owl-prev {
+        left: 40px;
+    }
+
+    .featured-slider-section.style3:hover .owl-nav .owl-next,
+    .featured-slider-section.style3:focus .owl-nav .owl-next {
+        right: 40px;
+    }
+
+    .widget-column.above-footer {
+        padding-top: 35px;
+    }
+
+    .footer-contact {
+	    margin-top: 49px;
+	}
+
+	.site-footer-menu .social-navigation {
+        padding-bottom: 28px;
+        padding-top: 42px;
+    }
+
+    .site-info .wrapper {
+        padding: 21px 60px;
+    }
+
+	.pagination,
+	.posts-navigation {
+		padding: 0 20px;
+	}
+
+	.author-info {
+		margin-top: 56px;
+	}
+
+	#footer-instagram .widget-title {
+		margin: 70px auto 42px;
+	}
+
+	.comment-respond {
+		padding: 42px 63px;
+	}
+
+    .boxed-post .hentry .entry-container,
+    .border-post .hentry .entry-container,
+    .events-section.grid-layout .entry-container,
+    .resume-section .experience .hentry-inner {
+        padding: 35px;
+    }
+
+    .boxed-post .hentry .post-thumbnail .sticky-post,
+    .border-post .hentry .post-thumbnail .sticky-post,
+    .boxed-post .post-thumbnail .posted-on a,
+    .border-post .post-thumbnail .posted-on a {
+		left: 35px;
+	}
+
+    .archive-posts-wrapper .layout-one .hentry {
+        margin-bottom: 56px;
+    }
+
+    .excerpt-image-left .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry:after,
+    .excerpt-image-right .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry:after {
+        padding-bottom: 56px;
+
+    }
+
+    .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post).layout-one .hentry .post-wrapper {
+        padding-bottom: 56px;
+    }
+
+    .excerpt-image-left .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry.has-post-thumbnail .entry-container {
+        padding: 56px 0 56px 56px;
+    }
+
+    .excerpt-image-right .archive-posts-wrapper .section-content-wrapper:not(.boxed-post):not(.border-post) .hentry.has-post-thumbnail .entry-container {
+       padding: 56px 56px 56px 0;
+    }
+
+	.section-heading-wrapper {
+		padding: 35px 60px 42px 60px;
+	}
+
+    .section {
+        padding: 63px 0;
+    }
+
+    .theme-scheme-personal .section,
+    .theme-scheme-portfolio .section,
+    .theme-scheme-photography .section,
+    .theme-scheme-ecommerce .section {
+        padding: 49px 0;
+    }
+
+    .theme-scheme-corporate .section {
+        padding: 42px 0;
+    }
+
+    #footer-newsletter,
+    .theme-scheme-music #footer-newsletter,
+    .theme-scheme-wedding #footer-newsletter {
+        padding: 98px 0 63px 0;
+    }
+
+    .theme-scheme-personal #footer-newsletter,
+    .theme-scheme-portfolio #footer-newsletter,
+    .theme-scheme-photography #footer-newsletter,
+    .theme-scheme-ecommerce #footer-newsletter {
+        padding: 84px 0 49px 0;
+    }
+
+    .theme-scheme-corporate #footer-newsletter {
+        padding: 77px 0 42px 0;
+    }
+
+    .site-content,
+    .hero-section.section,
+    .promotion-section.section,
+    .promotion-contact.section,
+    .promotion-sale.section,
+    .reservation-section.section {
+        padding: 98px 0;
+    }
+
+    .theme-scheme-personal .site-content,
+    .theme-scheme-personal .hero-section.section,
+    .theme-scheme-personal .promotion-section.section,
+    .theme-scheme-personal .promotion-contact.section,
+    .theme-scheme-personal .promotion-sale.section,
+    .theme-scheme-personal .reservation-section.section,
+    .theme-scheme-portfolio .site-content,
+    .theme-scheme-portfolio .hero-section.section,
+    .theme-scheme-portfolio .promotion-section.section,
+    .theme-scheme-portfolio .promotion-contact.section,
+    .theme-scheme-portfolio .promotion-sale.section,
+    .theme-scheme-portfolio .reservation-section.section,
+    .theme-scheme-photography .site-content,
+    .theme-scheme-photography .hero-section.section,
+    .theme-scheme-photography .promotion-section.section,
+    .theme-scheme-photography .promotion-contact.section,
+    .theme-scheme-photography .promotion-sale.section,
+    .theme-scheme-photography .reservation-section.section,
+    .theme-scheme-ecommerce .site-content,
+    .theme-scheme-ecommerce .hero-section.section,
+    .theme-scheme-ecommerce .promotion-section.section,
+    .theme-scheme-ecommerce .promotion-contact.section,
+    .theme-scheme-ecommerce .promotion-sale.section,
+    .theme-scheme-ecommerce .reservation-section.section {
+        padding: 84px 0;
+    }
+
+    .theme-scheme-corporate .site-content,
+    .theme-scheme-corporate .hero-section.section,
+    .theme-scheme-corporate .promotion-section.section,
+    .theme-scheme-corporate .promotion-contact.section,
+    .theme-scheme-corporate .promotion-sale.section,
+    .theme-scheme-corporate .reservation-section.section {
+        padding: 77px 0;
+    }
+
+    .section.no-section-heading {
+        padding: 98px 0 63px 0;
+    }
+
+    body.theme-scheme-personal .section.no-section-heading,
+    body.theme-scheme-portfolio .section.no-section-heading,
+    body.theme-scheme-photography .section.no-section-heading,
+    body.theme-scheme-ecommerce .section.no-section-heading {
+        padding: 84px 0 49px 0;
+    }
+
+    body.theme-scheme-corporate .section.no-section-heading {
+        padding: 77px 0 42px 0;
+    }
+
+    body.theme-scheme-default .site-header + .section,
+    body.theme-scheme-default .custom-header + .section,
+    body.theme-scheme-default .featured-slider-section + .section,
+    body.theme-scheme-music .site-header + .section,
+    body.theme-scheme-music .custom-header + .section,
+    body.theme-scheme-music .featured-slider-section + .section {
+        padding-top: 98px;
+    }
+
+    .theme-scheme-default .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-default .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-default .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 98px;
+    }
+
+    .theme-scheme-music .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-music .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-music .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 98px;
+    }
+
+    body.theme-scheme-portfolio .site-header + .section,
+    body.theme-scheme-portfolio .custom-header + .section,
+    body.theme-scheme-portfolio .featured-slider-section + .section,
+    body.theme-scheme-photography .site-header + .section,
+    body.theme-scheme-photography .custom-header + .section,
+    body.theme-scheme-photography .featured-slider-section + .section,
+    body.theme-scheme-ecommerce .site-header + .section,
+    body.theme-scheme-ecommerce .custom-header + .section,
+    body.theme-scheme-ecommerce .featured-slider-section + .section {
+        padding-top: 84px;
+    }
+
+    .theme-scheme-portfolio .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-portfolio .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-portfolio .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 84px;
+    }
+
+    .theme-scheme-photography .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-photography .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-photography .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 84px;
+    }
+
+    .theme-scheme-ecommerce .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-ecommerce .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-ecommerce .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 84px;
+    }
+
+    body.theme-scheme-corporate .site-header + .section,
+    body.theme-scheme-corporate .custom-header + .section,
+    body.theme-scheme-corporate .featured-slider-section + .section {
+        padding-top: 77px;
+    }
+
+    .theme-scheme-corporate .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-corporate .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-corporate .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 77px;
+    }
+
+    body:not(.home) .site-content {
+        padding: 77px 0;
+    }
+
+    .comment-container .comment-wrap {
+	    padding: 35px;
+	}
+
+  	.hero-section:not(.custom-video) .entry-container {
+        padding-bottom: 91px;
+        padding-top: 91px;
+    }
+
+    .hero-section.section.style3  .hero-content-wrapper .entry-container {
+        padding-bottom: 133px;
+        padding-top: 133px;
+    }
+
+    .content-position-right .hero-content-wrapper .entry-container {
+        padding-left: 80px;
+    }
+
+    .content-position-left .hero-content-wrapper .entry-container {
+        padding-right: 80px;
+    }
+
+    .service-section.modern-style .wrapper .section-content-wrapper,
+    .service-section.modern-style .wrapper .section-content-wrapper .hentry,
+    .stats-section.modern-style .wrapper .section-content-wrapper,
+    .stats-section.modern-style .wrapper .section-content-wrapper .hentry {
+		padding: 0 30px;
+	}
+
+	.service-section.modern-style .wrapper .section-content-wrapper .hentry-inner,
+	.stats-section.modern-style .wrapper .section-content-wrapper .hentry-inner {
+        padding: 30px;
+    }
+
+    .service-section.modern-style .wrapper .section-heading-wrapper,
+    .stats-section.modern-style .wrapper .section-heading-wrapper {
+        padding-top: 30px;
+    }
+
+    .stats-section.modern-style .entry-content,
+    .stats-section.modern-style .entry-summary {
+        font-size: 66px;
+        font-size: 4.125rem;
+    }
+
+    .promotion-section.modern-style.content-position-left:not(.content-position-center) .content-wrapper {
+        padding-right: 98px;
+    }
+
+    .promotion-section.modern-style.content-position-right:not(.content-position-center) .content-wrapper {
+        padding-left: 98px;
+    }
+
+	.portfolio-section .entry-container > .entry-container-inner-wrap,
+    .portfolio-grid .archive-posts-wrapper .entry-container > .entry-container-inner-wrap {
+        padding: 30px;
+    }
+
+    .events-section.single-layout .date-week-day  {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    .testimonial-content-section.style3 .entry-container {
+        padding: 147px 56px 70px 56px;
+    }
+
+    .why-choose-us-section.modern-style .owl-dots {
+	    margin: 28px 0 35px 0;
+	}
+
+    .resume-section .education .date-institute{
+        padding-right: 40px;
+    }
+
+    .resume-section .education .entry-container {
+        padding-left: 40px;
+    }
+
+    #sticky-playlist-section:not(.playlist-shorten) .wp-playlist {
+        padding: 7px 30px;
+    }
+
+    .playlist-section .hentry:not(.has-post-thumbnail) .entry-container,
+    .playlist-section .entry-container,
+    .content-frame .entry-container {
+        padding: 49px;
+    }
+
+    .timeline-section .post-thumbnail,
+    .timeline-section .hentry:nth-child(2n) .entry-container {
+        padding-left: 60px;
+        padding-right: 65px;
+    }
+
+    .timeline-section .entry-container,
+    .timeline-section .hentry:nth-child(2n) .post-thumbnail {
+        padding-left: 65px;
+        padding-right: 60px;
+    }
+
+    .timeline-section .hentry {
+        margin-bottom: 70px;
+    }
+
+    .story-image {
+        margin: 0 60px 49px 60px;
+    }
+
+    .venue-section .has-post-thumbnail .entry-container {
+        padding: 70px 0;
+    }
+
+    .venue-section .content-wrap {
+        padding: 56px 70px;
+    }
+
+    .reservation-section .wrapper {
+        padding: 56px 98px;
+    }
+
+    .site-header .wrapper,
+    .site-secondary-header-menu .wrapper {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .widget-column {
+        padding: 28px 60px;
+    }
+
+    body:not(.home) .custom-header-content {
+        padding: 160px 100px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-music .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 98px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-personal .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-portfolio .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-photography .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-ecommerce .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 84px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-corporate .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 77px;
+    }
+
+    .stats-section.classic-style.style3 .entry-title {
+        font-size: 38px;
+        font-size: 2.375rem;
+    }
+
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .hero-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .hero-section.style3 + .section {
+        padding-top: 98px;
+    }
+
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-portfolio .hero-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-photography .hero-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-ecommerce .hero-section.style3 + .section {
+        padding-top: 84px;
+    }
+
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-corporate .hero-section.style3 + .section {
+        padding-top: 77px;
+    }
+
+    body #featured-video-section.section {
+        padding: 238px 0;
+    }
+
+     body.theme-scheme-ecommerce .promotion-section.section.classic-style.style1 {
+        padding: 182px 0;
+     }
+
+    .footer-widget-area {
+        padding: 28px 0;
+    }
+}

@@ -1,0 +1,212 @@
+/**
+ * 6.6 - Content
+ */
+
+.entry-content a:not(.more-link):not(.button):not(.wp-block-button__link),
+.entry-summary a:not(.more-link):not(.button):not(.wp-block-button__link),
+.ew-about a:not(.more-link):not(.button),
+.widget_text a:not(.more-link):not(.button),
+.comment-content a {
+    text-decoration: underline;
+}
+
+.entry-content a:not(.more-link):not(.button):hover,
+.entry-content a:not(.more-link):not(.button):focus,
+.entry-summary a:not(.more-link):not(.button):hover,
+.entry-summary a:not(.more-link):not(.button):focus,
+.ew-about a:not(.more-link):not(.button):hover,
+.ew-about a:not(.more-link):not(.button):focus,
+.widget_text a:not(.more-link):not(.button):hover,
+.widget_text a:not(.more-link):not(.button):focus,
+.comment-content a:hover,
+.comment-content a:focus {
+    text-decoration: none;
+}
+
+ .section,
+ #footer-newsletter {
+    clear: both;
+    display: block;
+    padding: 7px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer-newsletter {
+    padding: 42px 0 7px 0;
+}
+
+.section-heading-wrapper {
+    display: block;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 35px 30px 28px 30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.testimonial-content-section .owl-slideshow {
+    overflow: hidden;
+}
+
+.countdown-section,
+.testimonial-content-section,
+#featured-video-section,
+#playlist-section,
+#events-section,
+#product-content-section,
+#stats-section,
+#portfolio-content-section,
+#service-section,
+.reservation-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#page {
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.boxed-layout #page {
+    max-width: 1600px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1520px;
+}
+
+.section + .site-content {
+    border-top: 1px solid;
+}
+
+.single .site-main .post-thumbnail,
+.page .site-main .post-thumbnail {
+    margin-top: 0;
+}
+
+#content #infinite-handle {
+    padding: 0 15px;
+}
+
+.header-fluid .site-header .wrapper {
+    max-width: 1920px;
+}
+
+.custom-header .wrapper,
+#footer-instagram .wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.recent-blog-content .wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.page.no-sidebar .content-area,
+.single.no-sidebar .content-area,
+.no-sidebar .content-area,
+.service-section.classic-style .section-content-wrapper.layout-one,
+.team-section .section-content-wrapper.layout-one,
+.featured-content-section .section-content-wrapper.layout-one,
+.testimonial-content-section.layout-one .section-content-wrapper,
+.product-review-section .section-content-wrapper.layout-one,
+.timeline-section .section-content-wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+
+.site-content .archive-posts-wrapper .section-content-wrapper,
+.site-content .archive-posts-wrapper .section-content-wrapper.layout-one {
+    padding: 0;
+    position: relative;
+}
+
+.infinite-scroll .site-content .archive-posts-wrapper .section-content-wrapper,
+.infinite-scroll .site-content .archive-posts-wrapper .section-content-wrapper.layout-one {
+    padding: 0 0 46px 0;
+}
+
+.recent-blog-content .section-content-wrapper.layout-one .hentry {
+    padding: 0;
+}
+
+body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrapper {
+    padding-bottom: 0;
+}
+
+body:not(.has-featured-slider):not(.has-header-media) .site-header + .section.portfolio-section .section-heading-wrapper {
+    text-align: left;
+    margin: unset;
+    padding-bottom: 42px;
+}
+
+.theme-scheme-music .section-title {
+    text-transform: uppercase;
+}
+
+.theme-scheme-wedding .section-description {
+    @include flex;
+    @include flex-align-center;
+    @include flex-justify-center;
+}
+
+
+.theme-scheme-wedding .section-description:before,
+.theme-scheme-wedding .section-description:after {
+    border-top: 1px solid;
+    content: '';
+    display: table-cell;
+    position: relative;
+    width: 10%;
+}
+
+.theme-scheme-wedding .section-description:before {
+    right: 1.5%;
+}
+
+
+.theme-scheme-wedding .section-description:after {
+    left: 1.5%;
+}
+
+.theme-scheme-wedding .section-description p {
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.excerpt-image-left .hentry:not(.has-post-thumbnail) .post-wrapper .entry-container,
+.excerpt-image-right .hentry:not(.has-post-thumbnail) .post-wrapper .entry-container {
+    width: 100%;
+}
+
+.excerpt-image-left .boxed-post.layout-one .hentry .post-thumbnail .sticky-post,
+.excerpt-image-left .border-post.layout-one .hentry .post-thumbnail .sticky-post,
+.excerpt-image-left .boxed-post.layout-one .post-thumbnail .posted-on a,
+.excerpt-image-left .border-post.layout-one .post-thumbnail .posted-on a,
+.excerpt-image-right .boxed-post.layout-one .hentry .post-thumbnail .sticky-post,
+.excerpt-image-right .border-post.layout-one .hentry .post-thumbnail .sticky-post,
+.excerpt-image-right .boxed-post.layout-one .post-thumbnail .posted-on a,
+.excerpt-image-right .border-post.layout-one .post-thumbnail .posted-on a {
+    left: 0;
+}
+
+.excerpt-image-left .boxed-post .post-thumbnail .sticky-post,
+.excerpt-image-right .boxed-post .post-thumbnail .sticky-post {
+    bottom: 0;
+}

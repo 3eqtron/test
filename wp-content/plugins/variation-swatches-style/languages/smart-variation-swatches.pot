@@ -1,0 +1,422 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Smart Variation Swatches for WooCommerce\n"
+"POT-Creation-Date: 2021-01-13 19:53+0600\n"
+"PO-Revision-Date: 2021-01-13 19:53+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: smart-variation-swatches-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/class-admin.php:119
+msgid "Choose an image"
+msgstr ""
+
+#: inc/class-admin.php:120
+msgid "Use image"
+msgstr ""
+
+#: inc/class-admin.php:189
+msgid "Add image to Attribute "
+msgstr ""
+
+#: inc/class-admin.php:189 inc/class-wc-ex-product-data-tab.php:214
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/class-admin.php:190 inc/class-wc-ex-product-data-tab.php:215
+msgid "Remove image"
+msgstr ""
+
+#: inc/class-admin.php:242
+msgid "Select terms"
+msgstr ""
+
+#: inc/class-admin.php:253
+msgid "Select all"
+msgstr ""
+
+#: inc/class-admin.php:254
+msgid "Select none"
+msgstr ""
+
+#: inc/class-admin.php:255
+msgid "Add new"
+msgstr ""
+
+#: inc/class-frontend-archive.php:210
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: inc/class-options.php:63
+msgid "General Settings"
+msgstr ""
+
+#: inc/class-options.php:68
+msgid "Label Swatches  Settings"
+msgstr ""
+
+#: inc/class-options.php:72
+msgid "Color Swatches  Settings"
+msgstr ""
+
+#: inc/class-options.php:76 inc/class.settings-api.php:555
+#: inc/class.settings-api.php:559
+msgid "Images Swatches Settings"
+msgstr ""
+
+#: inc/class-options.php:80
+msgid "Shop / Archive"
+msgstr ""
+
+#: inc/class-options.php:85
+msgid "Tutorials"
+msgstr ""
+
+#: inc/class-options.php:113
+msgid "Enable Swatches"
+msgstr ""
+
+#: inc/class-options.php:116
+msgid "Show Swatches on archive / shop page"
+msgstr ""
+
+#: inc/class-options.php:121
+msgid "Swatches behavior"
+msgstr ""
+
+#: inc/class-options.php:122
+msgid "Swatches behavior on archive / shop page "
+msgstr ""
+
+#: inc/class-options.php:126
+msgid "Add to Cart"
+msgstr ""
+
+#: inc/class-options.php:127
+msgid "Product filter by attribute "
+msgstr ""
+
+#: inc/class-options.php:133
+msgid "Display Label"
+msgstr ""
+
+#: inc/class-options.php:136
+msgid "Show Swatches Label or title on archive / shop page"
+msgstr ""
+
+#: inc/class-options.php:140
+msgid "Display Position"
+msgstr ""
+
+#: inc/class-options.php:144
+msgid "Before add to cart "
+msgstr ""
+
+#: inc/class-options.php:145
+msgid "After add to cart"
+msgstr ""
+
+#: inc/class-options.php:151
+msgid "Enable Tooltip"
+msgstr ""
+
+#: inc/class-options.php:154
+msgid "Enable Archive page tooltips"
+msgstr ""
+
+#: inc/class-options.php:159
+msgid "Swatches width "
+msgstr ""
+
+#: inc/class-options.php:166
+msgid "Swatches Height"
+msgstr ""
+
+#: inc/class-options.php:174
+msgid "Swatches Style"
+msgstr ""
+
+#: inc/class-options.php:178 inc/class-options.php:230
+#: inc/class-options.php:341 inc/class-options.php:392
+msgid "Square"
+msgstr ""
+
+#: inc/class-options.php:179 inc/class-options.php:231
+#: inc/class-options.php:342 inc/class-options.php:393
+msgid "Circle"
+msgstr ""
+
+#: inc/class-options.php:180 inc/class-options.php:232
+#: inc/class-options.php:343 inc/class-options.php:394
+msgid "Round corner"
+msgstr ""
+
+#: inc/class-options.php:182
+msgid " Swatches Style on page Shop / Archive"
+msgstr ""
+
+#: inc/class-options.php:192
+msgid "Variable Price range Show"
+msgstr ""
+
+#: inc/class-options.php:195
+msgid "Replace the Variable Price range by the chosen css class"
+msgstr ""
+
+#: inc/class-options.php:200
+msgid "Tooltip Color"
+msgstr ""
+
+#: inc/class-options.php:206
+msgid "Tooltip Background"
+msgstr ""
+
+#: inc/class-options.php:213
+msgid "Tick sign Color"
+msgstr ""
+
+#: inc/class-options.php:226 inc/class-options.php:337
+msgid "Swatches Type"
+msgstr ""
+
+#: inc/class-options.php:237
+msgid "Button Width"
+msgstr ""
+
+#: inc/class-options.php:244
+msgid "Button Height"
+msgstr ""
+
+#: inc/class-options.php:251
+msgid "Font Size"
+msgstr ""
+
+#: inc/class-options.php:255
+msgid "PX"
+msgstr ""
+
+#: inc/class-options.php:261
+msgid "Button Color"
+msgstr ""
+
+#: inc/class-options.php:267
+msgid "Button Background"
+msgstr ""
+
+#: inc/class-options.php:273
+msgid "border Color"
+msgstr ""
+
+#: inc/class-options.php:286
+msgid "Hover Color"
+msgstr ""
+
+#: inc/class-options.php:293
+msgid "Hover Background"
+msgstr ""
+
+#: inc/class-options.php:301
+msgid "Hover border"
+msgstr ""
+
+#: inc/class-options.php:313 inc/class-options.php:363
+msgid "Color Swatches tooltip"
+msgstr ""
+
+#: inc/class-options.php:317 inc/class-options.php:367
+#: inc/class-options.php:418
+msgid "Yes"
+msgstr ""
+
+#: inc/class-options.php:318 inc/class-options.php:368
+#: inc/class-options.php:419
+msgid "No"
+msgstr ""
+
+#: inc/class-options.php:323 inc/class-options.php:373
+#: inc/class-options.php:425
+msgid "Active / Selected item ingredient"
+msgstr ""
+
+#: inc/class-options.php:327 inc/class-options.php:377
+#: inc/class-options.php:429
+msgid "Tick sign"
+msgstr ""
+
+#: inc/class-options.php:328 inc/class-options.php:378
+#: inc/class-options.php:430
+msgid "Opacity"
+msgstr ""
+
+#: inc/class-options.php:329 inc/class-options.php:379
+#: inc/class-options.php:431
+msgid "Zoom Up"
+msgstr ""
+
+#: inc/class-options.php:330 inc/class-options.php:380
+#: inc/class-options.php:432
+msgid "Zoom Down"
+msgstr ""
+
+#: inc/class-options.php:348
+msgid "Color Swatches Width"
+msgstr ""
+
+#: inc/class-options.php:355
+msgid "Color Swatches Height"
+msgstr ""
+
+#: inc/class-options.php:388
+msgid "Image Swatches Style"
+msgstr ""
+
+#: inc/class-options.php:399
+msgid "Image Swatches Width"
+msgstr ""
+
+#: inc/class-options.php:406
+msgid "Image Swatches Height"
+msgstr ""
+
+#: inc/class-options.php:414
+msgid "Image Swatches tooltip"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:38
+msgid "Variation Swatches"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:80
+msgid "Product Attribute Name"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:83
+msgid "Attribute Control Type"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:145
+msgid "None"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:147
+msgid "Taxonomy Lebel, Colors and Images"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:149
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:150
+msgid "Custom Images"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:151
+msgid "Custom Lebel"
+msgstr ""
+
+#: inc/class-wc-ex-product-data-tab.php:259
+msgid ""
+"Add a at least one attribute / variation combination to this product that "
+"has been configured with color swatches or photos. After you add the "
+"attributes from the \"Attributes\" tab and create a variation, save the "
+"product and you will see the option to configure the swatch or photo picker "
+"here."
+msgstr ""
+
+#: inc/class.settings-api.php:378
+msgid "Choose File"
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:18
+msgid "+ Smart Swatches Filter Products"
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:20
+msgid "Product Filter by Swatches "
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:32
+msgid "Title"
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:34
+msgid "Filter Products by Widget Description."
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:42
+msgid "Filter Products by"
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:48
+msgid "Attribute"
+msgstr ""
+
+#: inc/wc_widget_layered_nav_categories.php:49
+msgid "Select the Attribute."
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:58
+msgid "Color"
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:60
+msgid "Select box"
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:168
+msgid "Settings"
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:199
+msgid "Read Documentation"
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:201
+msgid "Facing issue?"
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:201
+msgid "Please open a ticket."
+msgstr ""
+
+#: smart-variation-swatches-for-woocommerce.php:229
+msgid ""
+"Smart Variation Wwatches for WooCommerce-pro is enabled but not effective. "
+"It requires WooCommerce in order to work."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Variation Swatches for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://athemeart.com/downloads/smart-variation-swatches-woocommerce-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An extension of WooCommerce that make variable products be more beauty and "
+"friendly with customers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "aThemeArt"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://athemeart.com/"
+msgstr ""

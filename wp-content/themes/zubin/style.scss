@@ -1,0 +1,156 @@
+/*
+Theme Name: Zubin
+Theme URI: https://catchthemes.com/themes/zubin/
+Author: Catch Themes
+Author URI: https://catchthemes.com/
+Description: Zubin is a responsive free Multipurpose WordPress theme that fits all kinds of business purposes. You can use the theme for Corporates, Blogs, Music sites, Wedding sites, Online Stores, Photography, Professional sites, and more. Zubin is fully flexible and provides a neat interface to efficiently represent your business in the web world. This responsive multipurpose WordPress theme features many crucial sections that can showcase everything you have to offer. For instance, Featured Slider, Featured Content, Hero Content, Logo Slider, Testimonials, Services, and more. All of these features are highly customizable and you can quickly enable the ones you desire. The fully responsive design in Zubin makes your site look amazingly aesthetic across all devices. Enable the sections you need and take full advantage by tweaking it your way. Zubin is an outstanding multipurpose WordPress theme with all and everything you need to create any type of website you fancy. So, what are you waiting for? Download Zubin today and start promoting your business online quickly and efficiently. check out Theme Instructions at https://catchthemes.com/themes/zubin/#theme-instructions and Demo at https://catchthemes.com/demo/zubin.
+Version: 1.0.4
+Requires at least: 5.1
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, flexible-header, footer-widgets, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, theme-options,  translation-ready, block-styles, wide-blocks, portfolio, blog, photography
+Text Domain: zubin
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Typography
+ 	* 2.1 - Font Awesome
+ 	* 2.2 - Font Family
+ 	* 2.3 - Font Size
+ 	* 2.4 - Heading
+ * 3.0 - Core
+ 	* 3.1 - Elements
+ 	* 3.2 - Icons
+ 	* 3.3 - Lists
+ 	* 3.4 - Padding/Margin
+ * 4.0 - Forms
+ * 5.0 - Navigation
+     *  5.1 - Next/Previous
+     *  5.2 - Menus
+     *  5.3 - Header
+ * 6.0 - Modules
+	 * 6.1 - Accessibility
+	 * 6.2 - Alignments
+	 * 6.3 - breadcrumbs
+	 * 6.4 - captions
+	 * 6.5 - clearings
+	 * 6.6 - content
+	 * 6.7 - media
+	 * 6.8 - scroll-up
+	 * 6.9 - sidebar
+ * 7.0 - Site
+ 	* 7.1 - Primary
+ 	  * 7.1.1 - Comments
+ 	  * 7.1.2 - post and navigation
+ 	* 7.2 - Primary
+ 	  * 7.2.1 - Widgets
+
+ 	* 7.3 - Section
+	 	* 7.3.1 - App section
+	 	* 7.3.2 - Audio Player
+	 	* 7.3.3 - Contact
+	 	* 7.3.4 - Events
+		* 7.3.5  - Feature Slider
+		* 7.3.6  - Feature Content
+		* 7.3.7  - Footer
+	 	* 7.3.8  - Gallery
+	 	* 7.3.9  - Hero Content
+		* 7.3.10 - Logo Slider
+		* 7.3.11 - Newsletter
+		* 7.3.12 - Playlist
+		* 7.3.13 - Portfolio
+		* 7.3.14 - Promotional
+		* 7.3.15 - Services
+		* 7.3.16 - Sticky Playlist
+		* 7.3.17 - Team
+		* 7.3.18 - Testimonials
+		* 7.3.19 - Woocommerce
+		 *  7.3.19.1 - Clearing
+		 *  7.3.19.2 - Layout
+		 *  7.3.19.3 - Shop tables
+		 *  7.3.19.4 - Products
+		 *  7.3.19.5 - Infinite Scroll
+		 *  7.3.19.6 - Onsale
+		 *  7.3.19.7 - Price
+		 *  7.3.19.8 - Buttons
+		 *  7.3.19.9 - Single product
+		 *  7.3.19.10 - Checkout
+		 *  7.3.19.11 - My account
+		 *  7.3.19.12 - General WooCommerce components
+		 *      7.3.19.12.1 - Header cart
+		 *      7.3.19.12.2 - Pagination
+		 *      7.3.19.12.3 - Star rating
+		 *      7.3.19.12.4 - Tabs
+		 *      7.3.19.12.5 - Password strength meter
+		 *      7.3.19.12.6 - Forms
+		 *      7.3.19.12.7 - Notices
+		 *      7.3.19.12.8 - WooCommerce widgets
+		 *             7.3.19.12.8.1 - WooCommerce Price Filter
+ * 8.0 - Media Queries
+ *	  8.1 - >= 480px
+ *    8.2 - >= 568px
+ *	  8.3 - >= 667px
+ *    8.4 - >= 768px
+ *    8.5 - >= 783px
+ *    8.6 - >= 1024px
+ *    8.7 - >= 1200px
+ *	  8.8 - >= 1366px
+ *    8.9 - >= 1600px
+ *    8.10 - >= 1920px
+ * 9.0 - Transition
+ * 10.0 - Colors
+ */
+
+//** - Normalize **//
+
+@import 'sass/normalize';
+
+//** - Variables **//
+
+@import 'sass/variables/variables';
+
+//** - Mixin **//
+
+@import 'sass/mixin/mixin';
+
+//** Typography **//
+
+@import 'sass/typography/typography';
+
+//** - Elements **//
+
+@import 'sass/elements/core';
+
+//** - Forms **//
+
+@import 'sass/forms/forms';
+
+//** - Navigation **//
+
+@import 'sass/navigation/navigation';
+
+
+//** Modules **//
+
+@import 'sass/modules/modules';
+
+
+//** Sites **//
+
+@import 'sass/site/site';
+
+//** - Media **//
+
+@import 'sass/media/media';
+
+//** - Color Selection **//
+
+@import 'sass/color-section';

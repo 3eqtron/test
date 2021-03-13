@@ -1,0 +1,557 @@
+/**
+ * 8.6 - >= 1200px
+ */
+
+@include media(large) {
+	.sticky-post {
+		font-size: 16px;
+		font-size: 1rem;
+		padding: 7px 21px;
+	}
+
+	.boxed-post .post-thumbnail .sticky-post {
+		bottom: -21px;
+	}
+
+	.entry-container .sticky-post {
+		margin-bottom: 21px;
+	}
+
+	#team-dots {
+		max-width: 485px;
+	}
+
+    .team-section.style1 .section-heading-wrapper {
+        padding-left: 30px;
+    }
+
+    .team-section.style1 .wrapper .section-content-wrapper {
+        padding-right: 30px;
+    }
+
+	#primary-menu-wrapper {
+		z-index: 999;
+	}
+
+	.navigation-classic #primary-menu-wrapper .menu-inside-wrapper,
+	.header-top-bar #header-top-menu-wrapper .menu-inside-wrapper,
+	#secondary-menu-wrapper .menu-inside-wrapper {
+        max-width: 100%;
+    }
+
+	#sticky-playlist-section .zubin-mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 75%;
+	    flex: 0 1 75%;
+	}
+
+	.navigation-classic .site-branding {
+		text-align: left;
+	}
+
+	.navigation-classic.menu-align-left .site-header-main .site-branding,
+	.navigation-classic.header-right-enabled .site-header-main .site-branding {
+		margin-right: unset;
+		padding-right: 42px;
+	}
+
+	.navigation-classic.menu-align-left .site-header-menu,
+	.navigation-classic.header-right-enabled .site-header-menu {
+		-webkit-box-flex: 1;
+		-ms-flex: auto;
+		flex: auto;
+		@include flex-wrap;
+	}
+
+	.navigation-classic.menu-align-left #primary-menu-wrapper,
+	.navigation-classic.header-right-enabled #primary-menu-wrapper {
+		margin-right: auto;
+	}
+
+	.navigation-classic.menu-align-center .site-header-main .site-branding {
+		margin-right: unset;
+		width: 25%;
+	}
+
+	.navigation-classic.menu-align-center .site-header-main .site-header-menu {
+		width: 75%;
+	}
+
+	.navigation-classic.menu-align-center .site-header-main #primary-menu-wrapper {
+		@include flex;
+		@include flex-justify-center;
+		width: 66.66%;
+	}
+
+	#secondary-menu-wrapper.is-open .menu-inside-wrapper,
+    .navigation-classic #primary-menu-wrapper.is-open .menu-inside-wrapper,
+    #header-top-menu-wrapper.is-open .menu-inside-wrapper {
+    	-webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+	.navigation-classic.menu-align-center .site-header-main .primary-right {
+		width: 33.33%;
+	}
+
+	.site-header-cart .cart-contents {
+		@include flex;
+	}
+
+	.hero-section:not(.custom-video) .entry-container {
+        padding-bottom: 77px;
+        padding-top: 77px;
+    }
+
+    .hero-section.section.style3  .hero-content-wrapper .entry-container {
+        padding-bottom: 105px;
+        padding-top: 105px;
+    }
+
+	#footer-instagram .widget-title {
+		margin: 63px auto 42px;
+	}
+
+	.navigation-classic .menu-toggle {
+		display: none;
+	}
+
+	.navigation-classic.modern-social #share-toggle,
+	.navigation-default.modern-social #share-toggle {
+		display: block;
+
+	}
+
+	.navigation-default #header-top-menu-wrapper .menu-toggle,
+	.navigation-default #secondary-menu-wrapper .menu-toggle {
+		display: none;
+	}
+
+	#top-search-wrapper .menu-toggle {
+		display: block;
+	}
+
+	.navigation-classic #primary-search-wrapper .menu-toggle {
+		display: block;
+	}
+
+	.navigation-classic #primary-menu-wrapper .menu-inside-wrapper,
+	.header-top-bar #header-top-menu-wrapper .menu-inside-wrapper,
+	.site-secondary-header-menu #secondary-menu-wrapper .menu-inside-wrapper  {
+		border: none;
+		position: relative;
+		display: block;
+		float: left;
+		top: 0;
+		left: 0;
+		right: 0;
+		visibility: visible;
+		opacity: 1;
+		width: auto;
+		bottom: auto;
+		background-color: transparent;
+		box-shadow: none;
+		overflow: inherit;
+	}
+
+	.social-navigation a,
+	.social-links-menu a {
+	    padding: 21px 10px;
+	}
+
+	.navigation-classic .main-navigation a,
+	.site-secondary-header-menu .secondary-navigation a {
+		padding: 14px 20px;
+		line-height: 2;
+	}
+
+	.site-secondary-header-menu .secondary-navigation {
+		margin-left: -20px
+	}
+
+	.header-top-bar .top-navigation a {
+		padding: 14px 10px;
+		line-height: 2;
+	}
+
+	.navigation-classic .active.dropdown-toggle:after {
+		display: none;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation .page_item_has_children > a:after,
+	.top-navigation .menu-item-has-children > a:after,
+	.top-navigation .page_item_has_children > a:after,
+	.secondary-navigation .menu-item-has-children > a:after,
+	.secondary-navigation .page_item_has_children > a:after {
+	   	content: "\f107";
+	    font-size: 16px;
+	    font-size: 1rem;
+	    padding-left: 7px;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a:after,
+	.top-navigation ul ul .menu-item-has-children > a:after,
+	.top-navigation ul ul .page_item_has_children > a:after,
+	.secondary-navigation ul ul .menu-item-has-children > a:after,
+	.secondary-navigation ul ul .page_item_has_children > a:after {
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		padding: 0;
+		position: absolute;
+		top: 14px;
+		right: 21px;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a:hover::after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a:hover::after,
+	.top-navigation ul ul .menu-item-has-children > a:hover::after,
+	.top-navigation ul ul .page_item_has_children > a:hover::after,
+	.secondary-navigation ul ul .menu-item-has-children > a:hover::after,
+	.secondary-navigation ul ul .page_item_has_children > a:hover::after {
+		right: 28px;
+	}
+
+	.secondary-navigation ul ul .menu-item-has-children > a:after,
+	.secondary-navigation ul ul .page_item_has_children > a:after {
+		-webkit-transform: rotate(270deg);
+		-moz-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+
+	.menu-active-disabled.navigation-classic .main-navigation .menu > .current-menu-item > a:before,
+    .menu-active-disabled.navigation-classic .main-navigation .menu > .current-menu-ancestor > a:before {
+    	content: none;
+    	border-bottom: 0;
+    }
+
+	.navigation-classic .main-navigation .menu > .current-menu-item > a:before,
+    .navigation-classic .main-navigation .menu > .current-menu-ancestor > a:before {
+    	content: "";
+    	border-bottom: 2px solid;
+    	position: absolute;
+    	left: 20px;
+    	bottom: 0;
+    	width: calc(100% - 40px);
+    	height: 1px;
+    }
+
+	.navigation-classic .main-navigation ul ul,
+	.top-navigation ul ul,
+	.secondary-navigation ul ul {
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 7px 0;
+		position: absolute;
+		top: 100%;
+		left: -999em;
+		z-index: 99999;
+	}
+
+	.navigation-classic .main-navigation ul ul ul,
+	.top-navigation ul ul ul,
+	.secondary-navigation ul ul ul {
+		top: -7px;
+	}
+
+	.navigation-classic .main-navigation ul ul a,
+	.header-top-bar .top-navigation ul ul a,
+	.site-secondary-header-menu .secondary-navigation ul ul a {
+		padding: 7px 20px;
+		width: 262px;
+	}
+
+	.navigation-classic .main-navigation ul ul a:hover,
+	.navigation-classic .main-navigation ul ul a:focus,
+	.header-top-bar .top-navigation ul ul a:hover,
+	.header-top-bar .top-navigation ul ul a:focus,
+	.site-secondary-header-menu .secondary-navigation ul ul a:hover,
+	.site-secondary-header-menu .secondary-navigation ul ul a:focus {
+		padding-left: 25px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul,
+	.top-navigation ul li:hover > ul,
+    .top-navigation ul li.focus > ul  {
+		left: auto;
+		right: 0;
+		-webkit-box-shadow: 0 0 5px -3px #000;
+        -moz-box-shadow: 0 0 5px -3px #000;
+        box-shadow: 0 0 5px -3px #000;
+		-webkit-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		-moz-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		-o-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+	}
+
+	.navigation-classic.menu-align-left .main-navigation ul ul .menu-item-has-children > a:after,
+	.navigation-classic.menu-align-left .main-navigation ul ul .page_item_has_children > a:after {
+		-webkit-transform: rotate(270deg);
+		-moz-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+
+	.navigation-classic.menu-align-left .main-navigation ul li:hover > ul,
+	.navigation-classic.menu-align-left .main-navigation ul li.focus > ul {
+		left: 0;
+		right: auto;
+	}
+
+	.navigation-classic.menu-align-left .main-navigation ul ul li:hover > ul,
+	.navigation-classic.menu-align-left .main-navigation ul ul li.focus > ul {
+		left: 100%;
+		right: auto;
+	}
+
+	.secondary-navigation ul li:hover > ul,
+    .secondary-navigation ul li.focus > ul  {
+		left: 0;
+		right: auto;
+		-webkit-box-shadow: 0 0 5px -3px #000;
+        -moz-box-shadow: 0 0 5px -3px #000;
+        box-shadow: 0 0 5px -3px #000;
+		-webkit-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		-moz-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		-o-animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+		animation: smoothScrollBack 0.5s forwards,fadein 0.5s;
+	}
+
+	.navigation-classic .main-navigation li {
+		border-bottom: none;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul,
+	.top-navigation ul ul li:hover > ul,
+    .top-navigation ul ul li.focus > ul {
+		left: auto;
+		right: 100%;
+	}
+
+    .secondary-navigation ul ul li:hover > ul,
+    .secondary-navigation ul ul li.focus > ul  {
+		left: 100%;
+		right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul .current_page_item > a,
+	.navigation-classic .main-navigation ul ul .current-menu-item > a,
+	.top-navigation ul ul .current_page_item > a,
+	.top-navigation ul ul .current-menu-item > a,
+	.secondary-navigationn ul ul .current_page_item > a,
+	.secondary-navigationn ul ul .current-menu-item > a {
+		color: #01e0af;
+	}
+
+	.navigation-classic .main-navigation li,
+	.top-navigation ul > li,
+	.secondary-navigation ul > li {
+		display: inline-block;
+	}
+
+	.navigation-classic .social-top div {
+		border-bottom: none;
+	}
+
+	.navigation-classic .dropdown-toggle,
+	.navigation-classic .main-navigation ul .dropdown-toggle.toggled-on,
+	.navigation-classic #primary-menu-wrapper .menu-toggle-wrapper,
+	.top-navigation .dropdown-toggle,
+	.top-navigation ul .dropdown-toggle.toggled-on,
+	.secondary-navigation .menu-toggle-wrapper,
+	.secondary-navigation .dropdown-toggle,
+	.secondary-navigation ul .dropdown-toggle.toggled-on {
+		display: none;
+	}
+
+	.header-media-disabled #feature-slider.section {
+		padding-top: 78px;
+	}
+
+	.absolute-header #masthead + .custom-header {
+        padding-top: 114px;
+    }
+
+    .navigation-classic .site-header-menu .main-navigation,
+    .top-navigation,
+    .secondary-navigation {
+        padding: 0;
+    }
+
+	.section {
+        padding: 49px 0;
+    }
+
+    #footer-newsletter,
+    .theme-scheme-music #footer-newsletter,
+    .theme-scheme-wedding #footer-newsletter {
+        padding: 84px 0 49px 0;
+    }
+
+
+    .site-content,
+    .hero-section.section,
+	.promotion-section.section,
+    .promotion-contact.section,
+    .promotion-sale.section,
+    .reservation-section.section {
+	    padding: 84px 0;
+	}
+
+    .section.no-section-heading {
+        padding: 84px 0 49px 0;
+    }
+
+	body:not(.home) .site-content {
+        padding: 70px 0;
+    }
+
+    .featured-slider-section.style1 .nav-controls {
+	    padding: 50px 50px 133px 50px;
+	}
+
+    .promotion-section.modern-style.content-position-left:not(.content-position-center) .content-wrapper {
+        padding-right: 84px;
+    }
+
+    .promotion-section.modern-style.content-position-right:not(.content-position-center) .content-wrapper {
+        padding-left: 84px;
+    }
+
+    .testimonial-content-section.style3 .entry-container {
+        padding: 133px 49px 63px 49px;
+    }
+
+	#sticky-playlist-section:not(.playlist-shorten) .wp-playlist-current-item {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 25%;
+	    flex: 0 1 25%;
+	}
+
+	#sticky-playlist-section:not(.playlist-shorten) .zubin-mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 75%;
+	    flex: 0 1 75%;
+	}
+
+	.countdown-section #clock > span {
+		display: block;
+		width: 20%;
+	}
+
+    .countdown-section #clock > span:nth-child(1n+4) {
+    	clear: none;
+    	float: left;
+    }
+
+    .reservation-section .wrapper {
+        padding: 49px 84px;
+    }
+
+    .site-secondary-header-menu #secondary-search-wrapper .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation ul ul,
+	.top-navigation ul ul,
+	.secondary-navigation ul ul {
+		background-color: transparent;
+	}
+
+    body.theme-scheme-default .site-header + .section,
+    body.theme-scheme-default .custom-header + .section,
+    body.theme-scheme-default .featured-slider-section + .section,
+    body.theme-scheme-music .site-header + .section,
+    body.theme-scheme-music .custom-header + .section,
+    body.theme-scheme-music .featured-slider-section + .section {
+        padding-top: 84px;
+    }
+
+    .theme-scheme-default .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-default .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-default .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 84px;
+    }
+
+   .theme-scheme-music .site-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-music .custom-header + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section),
+    .theme-scheme-music .featured-slider-section + .section:not(.app-section):not(.countdown-section):not(.gallery-section):not(.promotion-contact):not(.promotion-section):not(.promotion-sale):not(.reservation-section):not(.logo-slider-section):not(.testimonial-content-section) {
+        padding-top: 84px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-music .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 84px;
+    }
+
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-default .hero-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .app-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .countdown-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .gallery-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-contact.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-sale.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .reservation-section.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .stats-section.classic-style.style1.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .logo-slider-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .testimonial-content-section.style3,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .hero-section.style3.section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .app-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .countdown-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .featured-video-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .gallery-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-contact + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .promotion-sale + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .reservation-section + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .stats-section.classic-style.style1 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .logo-slider-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .testimonial-content-section.style3 + .section,
+    body:not(.theme-scheme-personal):not(.theme-scheme-wedding).theme-scheme-music .hero-section.style3 + .section {
+        padding-top: 84px;
+    }
+
+    body #featured-video-section.section {
+        padding: 196px 0;
+    }
+
+     body.theme-scheme-ecommerce .promotion-section.section.classic-style.style1 {
+     	padding: 161px 0;
+     }
+
+    .author-avatar .avatar {
+        height: 85px;
+        width: 85px;
+    }
+}
